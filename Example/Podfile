@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BoxCat_Example' do
+  pod 'BoxCat', :path => '../'
+
+  target 'BoxCat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
