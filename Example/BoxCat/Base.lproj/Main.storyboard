@@ -1,25 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="DHK-tS-BBg">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Images View Controller-->
+        <scene sceneID="8eO-3t-2XT">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <tableViewController id="DHK-tS-BBg" customClass="ImagesViewController" customModule="BoxCat_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="205" sectionHeaderHeight="28" sectionFooterHeight="28" id="DPT-rP-NmI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageCell" rowHeight="205" id="qDf-kp-hJe" customClass="ImageTableViewCell" customModule="BoxCat_Example" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="205"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qDf-kp-hJe" id="xZJ-8k-I7V">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="204"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ImageName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnQ-6t-mc9">
+                                            <rect key="frame" x="8" y="8" width="584" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BundleName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BD1-Lg-FgP">
+                                            <rect key="frame" x="8" y="175" width="584" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ks2-ad-SG5">
+                                            <rect key="frame" x="8" y="37" width="584" height="128"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ks2-ad-SG5" firstAttribute="leading" secondItem="BD1-Lg-FgP" secondAttribute="leading" id="25d-lj-sf7"/>
+                                        <constraint firstItem="ks2-ad-SG5" firstAttribute="top" secondItem="OnQ-6t-mc9" secondAttribute="bottom" constant="8" symbolic="YES" id="3pX-PN-GNq"/>
+                                        <constraint firstItem="BD1-Lg-FgP" firstAttribute="bottom" secondItem="xZJ-8k-I7V" secondAttribute="bottomMargin" id="40P-Bg-eeV"/>
+                                        <constraint firstItem="OnQ-6t-mc9" firstAttribute="trailing" secondItem="xZJ-8k-I7V" secondAttribute="trailingMargin" id="9jb-Mm-fRn"/>
+                                        <constraint firstItem="ks2-ad-SG5" firstAttribute="trailing" secondItem="BD1-Lg-FgP" secondAttribute="trailing" id="Dav-Vn-qAu"/>
+                                        <constraint firstItem="OnQ-6t-mc9" firstAttribute="leading" secondItem="ks2-ad-SG5" secondAttribute="leading" id="S2g-S7-JJg"/>
+                                        <constraint firstItem="BD1-Lg-FgP" firstAttribute="top" secondItem="ks2-ad-SG5" secondAttribute="bottom" constant="10" id="T7d-6U-ZGR"/>
+                                        <constraint firstItem="OnQ-6t-mc9" firstAttribute="top" secondItem="xZJ-8k-I7V" secondAttribute="topMargin" id="TIK-rv-NZQ"/>
+                                        <constraint firstItem="OnQ-6t-mc9" firstAttribute="trailing" secondItem="ks2-ad-SG5" secondAttribute="trailing" id="bMq-yF-aBF"/>
+                                        <constraint firstItem="OnQ-6t-mc9" firstAttribute="leading" secondItem="xZJ-8k-I7V" secondAttribute="leadingMargin" id="zZg-sp-PNY"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bundleImageNameLabel" destination="OnQ-6t-mc9" id="zvx-yy-6CU"/>
+                                    <outlet property="bundleImageView" destination="ks2-ad-SG5" id="wH0-Ag-tHR"/>
+                                    <outlet property="bundleNameLabel" destination="BD1-Lg-FgP" id="YEb-gN-ALM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DHK-tS-BBg" id="P3I-YZ-ag0"/>
+                            <outlet property="delegate" destination="DHK-tS-BBg" id="dGT-WY-4QI"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wtu-Ev-sYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="336" y="546"/>
         </scene>
     </scenes>
 </document>
