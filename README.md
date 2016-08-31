@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![Platform](https://img.shields.io/cocoapods/p/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 
+Bundled resource loading made easy
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
