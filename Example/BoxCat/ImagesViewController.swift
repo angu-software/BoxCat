@@ -11,7 +11,7 @@ import BoxCat
 
 class ImagesViewController: UITableViewController {
 
-    private let imageNames = ["img_green"]
+    private let imageNames = ["img_green", "img_red", "img_blue"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/BlueBoxCat/BlueBoxCat.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BoxCat/BoxCat.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RedBoxCat/RedBoxCat.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/BlueBoxCat/BlueBoxCat.framework"
   install_framework "$BUILT_PRODUCTS_DIR/BoxCat/BoxCat.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RedBoxCat/RedBoxCat.framework"
 fi

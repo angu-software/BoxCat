@@ -1,0 +1,27 @@
+{
+  "name": "BlueBoxCat",
+  "version": "0.1.0",
+  "summary": "A short description of BlueBoxCat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BlueBoxCat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andreas Günther": "andreas.guenther@runtastic.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BlueBoxCat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BlueBoxCat/Classes/**/*",
+  "resource_bundles": {
+    "BlueBoxCat": [
+      "BlueBoxCat/Assets/*.png"
+    ]
+  }
+}

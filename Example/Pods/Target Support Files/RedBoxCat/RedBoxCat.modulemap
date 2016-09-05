@@ -1,0 +1,6 @@
+framework module RedBoxCat {
+  umbrella header "RedBoxCat-umbrella.h"
+
+  export *
+  module * { export * }
+}

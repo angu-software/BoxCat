@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'BoxCat_Example' do
   pod 'BoxCat', :path => '../'
+  pod 'RedBoxCat', :path => './ResourcePods/RedBoxCat'
+  pod 'BlueBoxCat', :path => './ResourcePods/BlueBoxCat'
 
   target 'BoxCat_Tests' do
     inherit! :search_paths

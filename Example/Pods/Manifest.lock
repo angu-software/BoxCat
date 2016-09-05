@@ -1,16 +1,26 @@
 PODS:
+  - BlueBoxCat (0.1.0)
   - BoxCat (0.1.0)
+  - RedBoxCat (0.1.0)
 
 DEPENDENCIES:
+  - BlueBoxCat (from `./ResourcePods/BlueBoxCat`)
   - BoxCat (from `../`)
+  - RedBoxCat (from `./ResourcePods/RedBoxCat`)
 
 EXTERNAL SOURCES:
+  BlueBoxCat:
+    :path: "./ResourcePods/BlueBoxCat"
   BoxCat:
     :path: "../"
+  RedBoxCat:
+    :path: "./ResourcePods/RedBoxCat"
 
 SPEC CHECKSUMS:
+  BlueBoxCat: 9a0a94e01eae16d1af738c7215ecb54f50bd31cc
   BoxCat: 21ee5bc18460670f1a2014cb164f53b89b801785
+  RedBoxCat: 9a9ac3f63130a2b207eba05089b9eb72c94525de
 
-PODFILE CHECKSUM: e616ab43377c676da40763c024d58d083a65390b
+PODFILE CHECKSUM: 917276c11308ae8bfdc817271c55857e2604f1d4
 
 COCOAPODS: 1.0.1

@@ -8,65 +8,141 @@
 
 /* Begin PBXBuildFile section */
 		1112BC2A5B12AD293B7A870A3F64EF35 /* Pods-BoxCat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BC838AB3DCDD5A75DC23B2C059939F /* Pods-BoxCat_Tests-dummy.m */; };
-		2DE5D556B226525A680BBC82CA56176D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		45CA27373C0726D81A4FAC43E4C08315 /* Pods-BoxCat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0653E41DDB54DEDFCF066593BA1E36C3 /* Pods-BoxCat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B8F76CFD90688BF57616F009C0816FD /* NSBundle+BoxCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0616911FD0102507441F32289EFCCA /* NSBundle+BoxCat.swift */; };
+		2A616411878D94A5543981E5037CF4C0 /* img_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DBD2BC6D17D7B7142E413BA71717D71 /* img_blue.png */; };
+		4943001BF31A21BD4541B145E528DBD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4B8F76CFD90688BF57616F009C0816FD /* NSBundle+BoxCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674BACFD06429F0C06F7E3E76320EFD6 /* NSBundle+BoxCat.swift */; };
 		6E2101606BEBF27AA7E446407565C6DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		8F1058C0D0645AFB45F179DFA84457B3 /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DEE4DD5DFA6874B217F1C02338881 /* ResourceLoader.swift */; };
-		945DC71D57B75E1DEB17A11AD88D3B80 /* BoxCat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99404869CF9BB919D8967A2CE3C00D59 /* BoxCat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786379A2DED49F1FE65A14A2574F74E3 /* Pods-BoxCat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0653E41DDB54DEDFCF066593BA1E36C3 /* Pods-BoxCat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C6E459876500AEB273ECD9C2F1FD80 /* img_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADC9AEE10E6D9C5164B532F739AF782 /* img_red@3x.png */; };
+		8F1058C0D0645AFB45F179DFA84457B3 /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C97A21EDB048E6630A152CA21756C29 /* ResourceLoader.swift */; };
+		932BAB5407026C59318F5B73777E7549 /* BlueBoxCat.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84B84924FA9CF976A24E4A3D535009B1 /* BlueBoxCat.bundle */; };
+		945DC71D57B75E1DEB17A11AD88D3B80 /* BoxCat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 917ADC5333BE9ACAA565AD8ED0B5100A /* BoxCat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E00FD687C5BE0AE4880EA16DA2FB3E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6546D3AC0C8F089F04AB8FD15B6CCB /* ReplaceMe.swift */; };
+		97C412895FB2755ADA95554A921344E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9DB4EE81CC5B9A4D405CE7EB43F7F946 /* RedBoxCat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3CB6DCB0588B26971142CB539FA7B /* RedBoxCat-dummy.m */; };
 		A502A92BE7239CEA1C6AA1B674EF7B32 /* Pods-BoxCat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC9959BC12F42AE0AFCBA9764D9F7A8 /* Pods-BoxCat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9732043F5ABDEEF312449C7C06190D3 /* img_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF9111E53618DEC677E9A8FAA250480 /* img_blue@2x.png */; };
+		ACA4DC73462FB3503032C4466E5F2C18 /* BlueBoxCat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057A5591D7CDED7DD998CDD9FB477A9C /* BlueBoxCat-dummy.m */; };
+		ACE3791854080069360BCC587D832A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B18DCA85558430471839CA768B265192 /* RedBoxCat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B238F38F0A9DDFF0608966284058829A /* RedBoxCat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C04AEECB9E51CEF9D7896B95C9278D38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C810646B1639C7ADE007D8042E0D2782 /* Pods-BoxCat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE641AD78BD42B3487D3F2D094FAFB19 /* Pods-BoxCat_Example-dummy.m */; };
-		CCF6A29A6CA79971682608EE845D9F72 /* BoxCat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D383AA8E78F54ACCB478089E0DDD345 /* BoxCat-dummy.m */; };
+		CCF6A29A6CA79971682608EE845D9F72 /* BoxCat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C14B20354A4CEFFC87C2CE6459E3F /* BoxCat-dummy.m */; };
+		D24778E5C7501930ECFFC047E261012B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F235A73AA7C4EEB65A36D49C16726D7 /* ReplaceMe.swift */; };
+		DE00164ECA727093124DCCD0880366E4 /* img_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B7C2E753625FA0E5C9824AF8449D69 /* img_blue@3x.png */; };
+		F01595958CBFBE9A83C5629B20E0D19F /* img_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DC634374B8304DC19A599789B321E6E1 /* img_red.png */; };
+		F2B773D88C76A73597EC65E0D5DF97F5 /* BlueBoxCat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AFBEE1A79D010083C08A486341E9BE /* BlueBoxCat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6706B92437010904BAD203ED0DEDA41 /* img_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0275AB32DCB1025E9723D2B5BFEDB /* img_red@2x.png */; };
+		F908A6B3B611AD24774A4E54FA35185C /* Pods-BoxCat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE641AD78BD42B3487D3F2D094FAFB19 /* Pods-BoxCat_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DB2E9175F409473C60AB22C0EB47B17E /* PBXContainerItemProxy */ = {
+		48C38DAD910B424E7301E673FDA8D332 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7CCC64E13AE8741917A547CBC356875C;
 			remoteInfo = BoxCat;
 		};
+		706030E52A1E438DA0562EF7A82E0780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A91875ADD8FBECD93DF29B7365B66B;
+			remoteInfo = "BlueBoxCat-BlueBoxCat";
+		};
+		7F85E0D2BF29A0F8C09899D7B5DD1726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F63CA977663561AB022DA7049926F9C8;
+			remoteInfo = BlueBoxCat;
+		};
+		B9BA1A9381E37B471C1557B5F4635644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14C2508B9460FA4B264184A36050B131;
+			remoteInfo = RedBoxCat;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0331DCE370F232E98E65DA859C2C65B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057A5591D7CDED7DD998CDD9FB477A9C /* BlueBoxCat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueBoxCat-dummy.m"; sourceTree = "<group>"; };
+		05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RedBoxCat.xcconfig; sourceTree = "<group>"; };
 		0653E41DDB54DEDFCF066593BA1E36C3 /* Pods-BoxCat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoxCat_Example-umbrella.h"; sourceTree = "<group>"; };
-		11D6397A332F82DED4E70D818C4775AE /* BoxCat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoxCat-prefix.pch"; sourceTree = "<group>"; };
+		08B7857EC6D9E25445F1213BB176D354 /* BoxCat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BoxCat.modulemap; sourceTree = "<group>"; };
+		10F066A30463CE64938CC243D93C71D0 /* BlueBoxCat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BlueBoxCat.modulemap; sourceTree = "<group>"; };
 		17A18B66A611802FFD1CA7ECF1889A58 /* Pods-BoxCat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoxCat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1D5BE94AC491B5B738B803E47D7D026A /* BoxCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186C14B20354A4CEFFC87C2CE6459E3F /* BoxCat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BoxCat-dummy.m"; sourceTree = "<group>"; };
+		1A24B56F64932B6780022C28CAD241BD /* BlueBoxCat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueBoxCat.xcconfig; sourceTree = "<group>"; };
 		201C16F9893DD21C0588B9609A55F25D /* Pods-BoxCat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoxCat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2143685F431530BF2A0510FF90CF245C /* BoxCat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BoxCat.modulemap; sourceTree = "<group>"; };
 		2A285C51BC942220EE2CEDAB44798DE4 /* Pods-BoxCat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoxCat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2AC9959BC12F42AE0AFCBA9764D9F7A8 /* Pods-BoxCat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoxCat_Tests-umbrella.h"; sourceTree = "<group>"; };
-		36BAF70E0E50AEE6B9DA58DA3D771171 /* Pods_BoxCat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxCat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C97A21EDB048E6630A152CA21756C29 /* ResourceLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+		2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoxCat.xcconfig; sourceTree = "<group>"; };
 		394E93402701CB861226757C601D87D8 /* Pods-BoxCat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoxCat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DA0275AB32DCB1025E9723D2B5BFEDB /* img_red@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_red@2x.png"; sourceTree = "<group>"; };
 		430EC5F1816D32C5B66FAB0A2E3454F9 /* Pods-BoxCat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoxCat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		496667B4AE20FB084EB4AD315498439F /* BoxCat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoxCat-prefix.pch"; sourceTree = "<group>"; };
+		4AC3CB6DCB0588B26971142CB539FA7B /* RedBoxCat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RedBoxCat-dummy.m"; sourceTree = "<group>"; };
 		4B46BC73320481FF73BCC03B888D5DF8 /* Pods-BoxCat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoxCat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55283B8B1D925CBF7DB3A77A068A7628 /* Pods-BoxCat_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoxCat_Tests-resources.sh"; sourceTree = "<group>"; };
+		62762CEECF6F89BB129C5FBD31B62AF9 /* BlueBoxCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlueBoxCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6350EA935D7D33E5C3E389A8BB55432E /* RedBoxCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedBoxCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65DC83FAB8DD9D1F69213109C5EC379D /* Pods-BoxCat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoxCat_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7D383AA8E78F54ACCB478089E0DDD345 /* BoxCat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BoxCat-dummy.m"; sourceTree = "<group>"; };
+		674BACFD06429F0C06F7E3E76320EFD6 /* NSBundle+BoxCat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSBundle+BoxCat.swift"; sourceTree = "<group>"; };
+		69ECA8A7386DC1FCAF5E1FE76750C46D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3CA02DC22B177F2E7A93BB6A2301C1 /* ResourceBundle-BlueBoxCat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BlueBoxCat-Info.plist"; sourceTree = "<group>"; };
+		6CAF98A2F549FF21879EFAC3E44EC89B /* BlueBoxCat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueBoxCat-prefix.pch"; sourceTree = "<group>"; };
+		6E87917610F4784DBF906E3D101EB91D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7645A4AFC3632BFDA8286D1BA5B4EFFD /* RedBoxCat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RedBoxCat.modulemap; sourceTree = "<group>"; };
+		77C7ED4F054011968CE8F09FCC965545 /* BoxCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F235A73AA7C4EEB65A36D49C16726D7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		84B84924FA9CF976A24E4A3D535009B1 /* BlueBoxCat.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueBoxCat.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C9D8B0839AB26D2774D6342EE32C75 /* Pods-BoxCat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoxCat_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		881DEE4DD5DFA6874B217F1C02338881 /* ResourceLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+		917ADC5333BE9ACAA565AD8ED0B5100A /* BoxCat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoxCat-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99404869CF9BB919D8967A2CE3C00D59 /* BoxCat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BoxCat-umbrella.h"; sourceTree = "<group>"; };
+		9DBD2BC6D17D7B7142E413BA71717D71 /* img_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_blue.png; sourceTree = "<group>"; };
 		A6E7834BBD892EF89429C132BFEBED5D /* Pods-BoxCat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoxCat_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AADC9AEE10E6D9C5164B532F739AF782 /* img_red@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_red@3x.png"; sourceTree = "<group>"; };
 		AD284779B19326270FFA650E60D9A06D /* Pods-BoxCat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoxCat_Tests.modulemap"; sourceTree = "<group>"; };
-		AD94B9E05E74EFDA1C6D2641FB2B504C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B238F38F0A9DDFF0608966284058829A /* RedBoxCat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedBoxCat-umbrella.h"; sourceTree = "<group>"; };
 		B2FD9D09D0681DF39B493DF9EEA81544 /* Pods-BoxCat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoxCat_Example.modulemap"; sourceTree = "<group>"; };
+		B9B7C2E753625FA0E5C9824AF8449D69 /* img_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_blue@3x.png"; sourceTree = "<group>"; };
 		B9BC838AB3DCDD5A75DC23B2C059939F /* Pods-BoxCat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoxCat_Tests-dummy.m"; sourceTree = "<group>"; };
 		BD628D3DB08E7901C3A69C8D171ED82E /* Pods-BoxCat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoxCat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C57916C99F860669A5EB89CA907B91B3 /* Pods_BoxCat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxCat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB97AAA330FC20B2C8D5CB01EFBC69B3 /* RedBoxCat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedBoxCat-prefix.pch"; sourceTree = "<group>"; };
+		CD6546D3AC0C8F089F04AB8FD15B6CCB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA0616911FD0102507441F32289EFCCA /* NSBundle+BoxCat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSBundle+BoxCat.swift"; sourceTree = "<group>"; };
 		DB676A36F240A651E251C87D2390C668 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC634374B8304DC19A599789B321E6E1 /* img_red.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_red.png; sourceTree = "<group>"; };
 		DE641AD78BD42B3487D3F2D094FAFB19 /* Pods-BoxCat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoxCat_Example-dummy.m"; sourceTree = "<group>"; };
-		F9BBA6231AF54245B9C3A730D65F83AF /* BoxCat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoxCat.xcconfig; sourceTree = "<group>"; };
+		E498A3E30E65974FD4BB93276F33E5D7 /* Pods_BoxCat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxCat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AFBEE1A79D010083C08A486341E9BE /* BlueBoxCat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueBoxCat-umbrella.h"; sourceTree = "<group>"; };
+		FB1FD5E8ECF3564B53D8450AFB51C047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9AFA34B9CEF0CD5409A31059CDB330 /* Pods-BoxCat_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoxCat_Example-resources.sh"; sourceTree = "<group>"; };
+		FDF9111E53618DEC677E9A8FAA250480 /* img_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "img_blue@2x.png"; sourceTree = "<group>"; };
+		FF9D0575FB35FBBAF8F571AD8B110348 /* Pods_BoxCat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxCat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		03F657FDCDE4557D48835F007CF8EBD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C412895FB2755ADA95554A921344E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F80B92204999FB4A44DA8236A290B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE3791854080069360BCC587D832A51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		73C4CA6F18E87AE6D4AB9C95D49ED916 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,11 +151,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		750AF0A2596B5B3A1CE90043BF5C84D1 /* Frameworks */ = {
+		8514E6C3C0237DD24B545FDBCFBFA68C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE5D556B226525A680BBC82CA56176D /* Foundation.framework in Frameworks */,
+				4943001BF31A21BD4541B145E528DBD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910D78C5F059C744E918F2293619EE43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,18 +177,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FC1C3FE70615A018FFBFEDC0B24B2F9 /* Support Files */ = {
+		018C025A05BDAF17192FCB6F65207046 /* RedBoxCat */ = {
 			isa = PBXGroup;
 			children = (
-				2143685F431530BF2A0510FF90CF245C /* BoxCat.modulemap */,
-				F9BBA6231AF54245B9C3A730D65F83AF /* BoxCat.xcconfig */,
-				7D383AA8E78F54ACCB478089E0DDD345 /* BoxCat-dummy.m */,
-				11D6397A332F82DED4E70D818C4775AE /* BoxCat-prefix.pch */,
-				99404869CF9BB919D8967A2CE3C00D59 /* BoxCat-umbrella.h */,
-				AD94B9E05E74EFDA1C6D2641FB2B504C /* Info.plist */,
+				AA62E1874CA1A6CA956D80248AD028EF /* RedBoxCat */,
+				8558A674E58E01C1959F84B2AE07BDC2 /* Resources */,
+				1BF8DCF56297F1C5BCEB20EBF3824B31 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BoxCat";
+			name = RedBoxCat;
+			path = ../ResourcePods/RedBoxCat;
 			sourceTree = "<group>";
 		};
 		110ACBE06D4244FEC9A144FC2DDA4D21 /* Pods-BoxCat_Tests */ = {
@@ -126,12 +206,58 @@
 			path = "Target Support Files/Pods-BoxCat_Tests";
 			sourceTree = "<group>";
 		};
-		1178564FAA578C2ECACD97436751E311 /* Development Pods */ = {
+		14AB63F1A9DBC8B36EC5B0383397EAD7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				670CDDDDA969E5D783434A4E655311DA /* BoxCat */,
+				1A8985355750713DC5173DD19B70E06D /* BlueBoxCat */,
 			);
-			name = "Development Pods";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A8985355750713DC5173DD19B70E06D /* BlueBoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				9A76C8633885BB6EA142C46ADB6E8FEB /* Assets */,
+			);
+			path = BlueBoxCat;
+			sourceTree = "<group>";
+		};
+		1BF8DCF56297F1C5BCEB20EBF3824B31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69ECA8A7386DC1FCAF5E1FE76750C46D /* Info.plist */,
+				7645A4AFC3632BFDA8286D1BA5B4EFFD /* RedBoxCat.modulemap */,
+				05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */,
+				4AC3CB6DCB0588B26971142CB539FA7B /* RedBoxCat-dummy.m */,
+				CB97AAA330FC20B2C8D5CB01EFBC69B3 /* RedBoxCat-prefix.pch */,
+				B238F38F0A9DDFF0608966284058829A /* RedBoxCat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/RedBoxCat";
+			sourceTree = "<group>";
+		};
+		24846C16868E408C0E7FCBE09E9CF96E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD6546D3AC0C8F089F04AB8FD15B6CCB /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C615E10288622860B34A51B68659B31 /* BoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				993638071499E05F4A03C1698A239EBA /* Classes */,
+			);
+			path = BoxCat;
+			sourceTree = "<group>";
+		};
+		3D4E88B55CDCEACD74080549FED4192C /* BlueBoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				7805E303C440A38416BFC286C2D19D2A /* Classes */,
+			);
+			path = BlueBoxCat;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -142,12 +268,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4211133563E7FFA64584B3EBA71B305A /* BoxCat */ = {
+		444569453BEF1E9FC32ECF9013FC0133 /* RedBoxCat */ = {
 			isa = PBXGroup;
 			children = (
-				9F60F62C579C59491207E855B2C3980B /* Classes */,
+				AE4C19E5C1DB7449D3992BAA35B5453F /* Assets */,
 			);
-			path = BoxCat;
+			path = RedBoxCat;
 			sourceTree = "<group>";
 		};
 		48D00FEECF3D5AC936EC6A4A1C464189 /* Targets Support Files */ = {
@@ -159,24 +285,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4968022AD6071DBF60A7FF8650F0432A /* Products */ = {
+		4E4ED1803639BD7680A56851A35D1EBE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D5BE94AC491B5B738B803E47D7D026A /* BoxCat.framework */,
-				36BAF70E0E50AEE6B9DA58DA3D771171 /* Pods_BoxCat_Example.framework */,
-				C57916C99F860669A5EB89CA907B91B3 /* Pods_BoxCat_Tests.framework */,
+				10F066A30463CE64938CC243D93C71D0 /* BlueBoxCat.modulemap */,
+				1A24B56F64932B6780022C28CAD241BD /* BlueBoxCat.xcconfig */,
+				057A5591D7CDED7DD998CDD9FB477A9C /* BlueBoxCat-dummy.m */,
+				6CAF98A2F549FF21879EFAC3E44EC89B /* BlueBoxCat-prefix.pch */,
+				E7AFBEE1A79D010083C08A486341E9BE /* BlueBoxCat-umbrella.h */,
+				6E87917610F4784DBF906E3D101EB91D /* Info.plist */,
+				6B3CA02DC22B177F2E7A93BB6A2301C1 /* ResourceBundle-BlueBoxCat-Info.plist */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/BlueBoxCat";
 			sourceTree = "<group>";
 		};
-		670CDDDDA969E5D783434A4E655311DA /* BoxCat */ = {
+		53447D7240A8D34FA8EDDBB4B229CA28 /* BoxCat */ = {
 			isa = PBXGroup;
 			children = (
-				4211133563E7FFA64584B3EBA71B305A /* BoxCat */,
-				0FC1C3FE70615A018FFBFEDC0B24B2F9 /* Support Files */,
+				2C615E10288622860B34A51B68659B31 /* BoxCat */,
+				FA010BC5A5F727D01FA64D237FA4E83D /* Support Files */,
 			);
 			name = BoxCat;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		7805E303C440A38416BFC286C2D19D2A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F235A73AA7C4EEB65A36D49C16726D7 /* ReplaceMe.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		784E6693703EC952771341169E539652 /* Pods-BoxCat_Example */ = {
@@ -197,24 +336,94 @@
 			path = "Target Support Files/Pods-BoxCat_Example";
 			sourceTree = "<group>";
 		};
+		7CF8D4B1E1DB74293415695413B65E1E /* BlueBoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				3D4E88B55CDCEACD74080549FED4192C /* BlueBoxCat */,
+				14AB63F1A9DBC8B36EC5B0383397EAD7 /* Resources */,
+				4E4ED1803639BD7680A56851A35D1EBE /* Support Files */,
+			);
+			name = BlueBoxCat;
+			path = ../ResourcePods/BlueBoxCat;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1178564FAA578C2ECACD97436751E311 /* Development Pods */,
+				7EFAA86053571C8290F276B531AA6EB9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4968022AD6071DBF60A7FF8650F0432A /* Products */,
+				91F323DA919F6FA909E9F1F7FAA5E081 /* Products */,
 				48D00FEECF3D5AC936EC6A4A1C464189 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9F60F62C579C59491207E855B2C3980B /* Classes */ = {
+		7EFAA86053571C8290F276B531AA6EB9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DA0616911FD0102507441F32289EFCCA /* NSBundle+BoxCat.swift */,
-				881DEE4DD5DFA6874B217F1C02338881 /* ResourceLoader.swift */,
+				7CF8D4B1E1DB74293415695413B65E1E /* BlueBoxCat */,
+				53447D7240A8D34FA8EDDBB4B229CA28 /* BoxCat */,
+				018C025A05BDAF17192FCB6F65207046 /* RedBoxCat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8558A674E58E01C1959F84B2AE07BDC2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				444569453BEF1E9FC32ECF9013FC0133 /* RedBoxCat */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91F323DA919F6FA909E9F1F7FAA5E081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B84924FA9CF976A24E4A3D535009B1 /* BlueBoxCat.bundle */,
+				62762CEECF6F89BB129C5FBD31B62AF9 /* BlueBoxCat.framework */,
+				77C7ED4F054011968CE8F09FCC965545 /* BoxCat.framework */,
+				E498A3E30E65974FD4BB93276F33E5D7 /* Pods_BoxCat_Example.framework */,
+				FF9D0575FB35FBBAF8F571AD8B110348 /* Pods_BoxCat_Tests.framework */,
+				6350EA935D7D33E5C3E389A8BB55432E /* RedBoxCat.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993638071499E05F4A03C1698A239EBA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				674BACFD06429F0C06F7E3E76320EFD6 /* NSBundle+BoxCat.swift */,
+				2C97A21EDB048E6630A152CA21756C29 /* ResourceLoader.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A76C8633885BB6EA142C46ADB6E8FEB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9DBD2BC6D17D7B7142E413BA71717D71 /* img_blue.png */,
+				FDF9111E53618DEC677E9A8FAA250480 /* img_blue@2x.png */,
+				B9B7C2E753625FA0E5C9824AF8449D69 /* img_blue@3x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AA62E1874CA1A6CA956D80248AD028EF /* RedBoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				24846C16868E408C0E7FCBE09E9CF96E /* Classes */,
+			);
+			path = RedBoxCat;
+			sourceTree = "<group>";
+		};
+		AE4C19E5C1DB7449D3992BAA35B5453F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DC634374B8304DC19A599789B321E6E1 /* img_red.png */,
+				3DA0275AB32DCB1025E9723D2B5BFEDB /* img_red@2x.png */,
+				AADC9AEE10E6D9C5164B532F739AF782 /* img_red@3x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -225,14 +434,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA010BC5A5F727D01FA64D237FA4E83D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B7857EC6D9E25445F1213BB176D354 /* BoxCat.modulemap */,
+				2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */,
+				186C14B20354A4CEFFC87C2CE6459E3F /* BoxCat-dummy.m */,
+				496667B4AE20FB084EB4AD315498439F /* BoxCat-prefix.pch */,
+				917ADC5333BE9ACAA565AD8ED0B5100A /* BoxCat-umbrella.h */,
+				FB1FD5E8ECF3564B53D8450AFB51C047 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BoxCat";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		830B8F89D92CC4E52F64AE056EDF8385 /* Headers */ = {
+		16916F3B885F5926B372A8B5DFD2BE65 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CA27373C0726D81A4FAC43E4C08315 /* Pods-BoxCat_Example-umbrella.h in Headers */,
+				B18DCA85558430471839CA768B265192 /* RedBoxCat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EAC99E7859BC64BBD92E8E5C694715 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B773D88C76A73597EC65E0D5DF97F5 /* BlueBoxCat-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +472,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				945DC71D57B75E1DEB17A11AD88D3B80 /* BoxCat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE90EF3C8BC66E60DAB72F42DA21569D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786379A2DED49F1FE65A14A2574F74E3 /* Pods-BoxCat_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,22 +494,59 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		587BAF898411F20CD7674ECC6B126165 /* Pods-BoxCat_Example */ = {
+		08A91875ADD8FBECD93DF29B7365B66B /* BlueBoxCat-BlueBoxCat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C5C706D229A631212DF364105E72D5 /* Build configuration list for PBXNativeTarget "Pods-BoxCat_Example" */;
+			buildConfigurationList = B168FD0164B318C9BC15F88E160013C0 /* Build configuration list for PBXNativeTarget "BlueBoxCat-BlueBoxCat" */;
 			buildPhases = (
-				83CE750A9F9882FFDA56FCA775B86771 /* Sources */,
-				750AF0A2596B5B3A1CE90043BF5C84D1 /* Frameworks */,
-				830B8F89D92CC4E52F64AE056EDF8385 /* Headers */,
+				4581AE5DDC2A4B9AAA2E63A8416AAFDA /* Sources */,
+				910D78C5F059C744E918F2293619EE43 /* Frameworks */,
+				26C019A4B0B6C3010601934D87685D8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2A75398D25B3EC0054CD1CAEC38F7E5E /* PBXTargetDependency */,
+			);
+			name = "BlueBoxCat-BlueBoxCat";
+			productName = "BlueBoxCat-BlueBoxCat";
+			productReference = 84B84924FA9CF976A24E4A3D535009B1 /* BlueBoxCat.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		14C2508B9460FA4B264184A36050B131 /* RedBoxCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD298BDBAA814591B3577883CDE933AB /* Build configuration list for PBXNativeTarget "RedBoxCat" */;
+			buildPhases = (
+				12E924AFD43964175F59F6C3530AECE9 /* Sources */,
+				8514E6C3C0237DD24B545FDBCFBFA68C /* Frameworks */,
+				BA045EADAAA52D1298FD0EC0C2A450BD /* Resources */,
+				16916F3B885F5926B372A8B5DFD2BE65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBoxCat;
+			productName = RedBoxCat;
+			productReference = 6350EA935D7D33E5C3E389A8BB55432E /* RedBoxCat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15243ADC2AC5C148F074790E47FDF9FB /* Pods-BoxCat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ED76AD4AE3F74E7313D5531BBD56648 /* Build configuration list for PBXNativeTarget "Pods-BoxCat_Example" */;
+			buildPhases = (
+				689A35C0D6052BACFB6F39CECCE66787 /* Sources */,
+				03F657FDCDE4557D48835F007CF8EBD3 /* Frameworks */,
+				AE90EF3C8BC66E60DAB72F42DA21569D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5144ABE853274FFAFE0D837FE8B915C /* PBXTargetDependency */,
+				9909A2558AEDC0DAB78392252AD16FD1 /* PBXTargetDependency */,
+				858203EEB63611DADFCD8614E4FEF8F3 /* PBXTargetDependency */,
 			);
 			name = "Pods-BoxCat_Example";
 			productName = "Pods-BoxCat_Example";
-			productReference = 36BAF70E0E50AEE6B9DA58DA3D771171 /* Pods_BoxCat_Example.framework */;
+			productReference = E498A3E30E65974FD4BB93276F33E5D7 /* Pods_BoxCat_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5E887F30ADA1270F68A25329A0F324DE /* Pods-BoxCat_Tests */ = {
@@ -287,7 +563,7 @@
 			);
 			name = "Pods-BoxCat_Tests";
 			productName = "Pods-BoxCat_Tests";
-			productReference = C57916C99F860669A5EB89CA907B91B3 /* Pods_BoxCat_Tests.framework */;
+			productReference = FF9D0575FB35FBBAF8F571AD8B110348 /* Pods_BoxCat_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7CCC64E13AE8741917A547CBC356875C /* BoxCat */ = {
@@ -304,7 +580,26 @@
 			);
 			name = BoxCat;
 			productName = BoxCat;
-			productReference = 1D5BE94AC491B5B738B803E47D7D026A /* BoxCat.framework */;
+			productReference = 77C7ED4F054011968CE8F09FCC965545 /* BoxCat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F63CA977663561AB022DA7049926F9C8 /* BlueBoxCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26D646793FC4C8D83A0DEA04AFA9BBF /* Build configuration list for PBXNativeTarget "BlueBoxCat" */;
+			buildPhases = (
+				D7C8F52DDA5577240C6024C81FE83C27 /* Sources */,
+				43F80B92204999FB4A44DA8236A290B0 /* Frameworks */,
+				3E5088AC4F0D7FBF2A34DB0637418B99 /* Resources */,
+				41EAC99E7859BC64BBD92E8E5C694715 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA261FB8561517CBA8A604912C26D48D /* PBXTargetDependency */,
+			);
+			name = BlueBoxCat;
+			productName = BlueBoxCat;
+			productReference = 62762CEECF6F89BB129C5FBD31B62AF9 /* BlueBoxCat.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -324,18 +619,68 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4968022AD6071DBF60A7FF8650F0432A /* Products */;
+			productRefGroup = 91F323DA919F6FA909E9F1F7FAA5E081 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				F63CA977663561AB022DA7049926F9C8 /* BlueBoxCat */,
+				08A91875ADD8FBECD93DF29B7365B66B /* BlueBoxCat-BlueBoxCat */,
 				7CCC64E13AE8741917A547CBC356875C /* BoxCat */,
-				587BAF898411F20CD7674ECC6B126165 /* Pods-BoxCat_Example */,
+				15243ADC2AC5C148F074790E47FDF9FB /* Pods-BoxCat_Example */,
 				5E887F30ADA1270F68A25329A0F324DE /* Pods-BoxCat_Tests */,
+				14C2508B9460FA4B264184A36050B131 /* RedBoxCat */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		26C019A4B0B6C3010601934D87685D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A616411878D94A5543981E5037CF4C0 /* img_blue.png in Resources */,
+				A9732043F5ABDEEF312449C7C06190D3 /* img_blue@2x.png in Resources */,
+				DE00164ECA727093124DCCD0880366E4 /* img_blue@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5088AC4F0D7FBF2A34DB0637418B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932BAB5407026C59318F5B73777E7549 /* BlueBoxCat.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA045EADAAA52D1298FD0EC0C2A450BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01595958CBFBE9A83C5629B20E0D19F /* img_red.png in Resources */,
+				F6706B92437010904BAD203ED0DEDA41 /* img_red@2x.png in Resources */,
+				80C6E459876500AEB273ECD9C2F1FD80 /* img_red@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		12E924AFD43964175F59F6C3530AECE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB4EE81CC5B9A4D405CE7EB43F7F946 /* RedBoxCat-dummy.m in Sources */,
+				96E00FD687C5BE0AE4880EA16DA2FB3E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4581AE5DDC2A4B9AAA2E63A8416AAFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5F307975629A92A05A64C36C4B48877E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +688,14 @@
 				CCF6A29A6CA79971682608EE845D9F72 /* BoxCat-dummy.m in Sources */,
 				4B8F76CFD90688BF57616F009C0816FD /* NSBundle+BoxCat.swift in Sources */,
 				8F1058C0D0645AFB45F179DFA84457B3 /* ResourceLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689A35C0D6052BACFB6F39CECCE66787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F908A6B3B611AD24774A4E54FA35185C /* Pods-BoxCat_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,22 +707,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83CE750A9F9882FFDA56FCA775B86771 /* Sources */ = {
+		D7C8F52DDA5577240C6024C81FE83C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C810646B1639C7ADE007D8042E0D2782 /* Pods-BoxCat_Example-dummy.m in Sources */,
+				ACA4DC73462FB3503032C4466E5F2C18 /* BlueBoxCat-dummy.m in Sources */,
+				D24778E5C7501930ECFFC047E261012B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2A75398D25B3EC0054CD1CAEC38F7E5E /* PBXTargetDependency */ = {
+		858203EEB63611DADFCD8614E4FEF8F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedBoxCat;
+			target = 14C2508B9460FA4B264184A36050B131 /* RedBoxCat */;
+			targetProxy = B9BA1A9381E37B471C1557B5F4635644 /* PBXContainerItemProxy */;
+		};
+		9909A2558AEDC0DAB78392252AD16FD1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BoxCat;
 			target = 7CCC64E13AE8741917A547CBC356875C /* BoxCat */;
-			targetProxy = DB2E9175F409473C60AB22C0EB47B17E /* PBXContainerItemProxy */;
+			targetProxy = 48C38DAD910B424E7301E673FDA8D332 /* PBXContainerItemProxy */;
+		};
+		C5144ABE853274FFAFE0D837FE8B915C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueBoxCat;
+			target = F63CA977663561AB022DA7049926F9C8 /* BlueBoxCat */;
+			targetProxy = 7F85E0D2BF29A0F8C09899D7B5DD1726 /* PBXContainerItemProxy */;
+		};
+		EA261FB8561517CBA8A604912C26D48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BlueBoxCat-BlueBoxCat";
+			target = 08A91875ADD8FBECD93DF29B7365B66B /* BlueBoxCat-BlueBoxCat */;
+			targetProxy = 706030E52A1E438DA0562EF7A82E0780 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -411,6 +783,36 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		18F3E6C8D9372B98145E27E17ACDD068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A24B56F64932B6780022C28CAD241BD /* BlueBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueBoxCat/BlueBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlueBoxCat/BlueBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BlueBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		2131A04F638EA5804D802C58645B31D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -478,9 +880,38 @@
 			};
 			name = Release;
 		};
+		267BF1F9CC321F3102D1E68A755FC988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A24B56F64932B6780022C28CAD241BD /* BlueBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueBoxCat/BlueBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlueBoxCat/BlueBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BlueBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		283FAAA3DFC9BA463C76A5D4F66C3C86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9BBA6231AF54245B9C3A730D65F83AF /* BoxCat.xcconfig */;
+			baseConfigurationReference = 2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -508,7 +939,54 @@
 			};
 			name = Debug;
 		};
-		496C55ADC00308ED63AEB1AA78511445 /* Debug */ = {
+		2BE870AD24CBC0CC9444D46F17DDAD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RedBoxCat/RedBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RedBoxCat/RedBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RedBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E94E111AA49E4D8D7676F31CA70A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A24B56F64932B6780022C28CAD241BD /* BlueBoxCat.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BlueBoxCat";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BlueBoxCat/ResourceBundle-BlueBoxCat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BlueBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7B7243B2D94C3390881C89222CB59EB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86C9D8B0839AB26D2774D6342EE32C75 /* Pods-BoxCat_Example.debug.xcconfig */;
 			buildSettings = {
@@ -542,7 +1020,7 @@
 			};
 			name = Debug;
 		};
-		508006580CA14E3C7FC64FB2EBBC9F1B /* Release */ = {
+		A22BAA231A16D1135E51D5882D7735D9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B46BC73320481FF73BCC03B888D5DF8 /* Pods-BoxCat_Example.release.xcconfig */;
 			buildSettings = {
@@ -574,6 +1052,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		BE061B71DCD153F9E7EB4297F6A2AE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A24B56F64932B6780022C28CAD241BD /* BlueBoxCat.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BlueBoxCat";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BlueBoxCat/ResourceBundle-BlueBoxCat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BlueBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -619,7 +1114,7 @@
 		};
 		D9EE82D8037F8672A8E0697658A823BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9BBA6231AF54245B9C3A730D65F83AF /* BoxCat.xcconfig */;
+			baseConfigurationReference = 2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -638,6 +1133,35 @@
 				MODULEMAP_FILE = "Target Support Files/BoxCat/BoxCat.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = BoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5196835DFB3F4504639B6E1DF8A0C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RedBoxCat/RedBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RedBoxCat/RedBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RedBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -676,11 +1200,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C5C706D229A631212DF364105E72D5 /* Build configuration list for PBXNativeTarget "Pods-BoxCat_Example" */ = {
+		9ED76AD4AE3F74E7313D5531BBD56648 /* Build configuration list for PBXNativeTarget "Pods-BoxCat_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				496C55ADC00308ED63AEB1AA78511445 /* Debug */,
-				508006580CA14E3C7FC64FB2EBBC9F1B /* Release */,
+				7B7243B2D94C3390881C89222CB59EB5 /* Debug */,
+				A22BAA231A16D1135E51D5882D7735D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B168FD0164B318C9BC15F88E160013C0 /* Build configuration list for PBXNativeTarget "BlueBoxCat-BlueBoxCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE061B71DCD153F9E7EB4297F6A2AE7A /* Debug */,
+				4E94E111AA49E4D8D7676F31CA70A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD298BDBAA814591B3577883CDE933AB /* Build configuration list for PBXNativeTarget "RedBoxCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE870AD24CBC0CC9444D46F17DDAD70 /* Debug */,
+				E5196835DFB3F4504639B6E1DF8A0C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26D646793FC4C8D83A0DEA04AFA9BBF /* Build configuration list for PBXNativeTarget "BlueBoxCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F3E6C8D9372B98145E27E17ACDD068 /* Debug */,
+				267BF1F9CC321F3102D1E68A755FC988 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
