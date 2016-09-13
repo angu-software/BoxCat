@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BlueBoxCat_Tests' do
+  pod 'BlueBoxCat', :path => '../'
+  
+  
+end

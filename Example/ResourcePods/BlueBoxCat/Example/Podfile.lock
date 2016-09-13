@@ -1,0 +1,16 @@
+PODS:
+  - BlueBoxCat (0.1.0)
+
+DEPENDENCIES:
+  - BlueBoxCat (from `../`)
+
+EXTERNAL SOURCES:
+  BlueBoxCat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BlueBoxCat: 21af94fe906d71c9b882e38fa9332daab5382ca1
+
+PODFILE CHECKSUM: eac07e34ff82147f97b99b44df0ee4eb0a7b732b
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFD142E8FED9BBDA115E0E8C66E0270 /* RedBoxCat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B35AA2806F0EBB478C684018740814E3 /* RedBoxCat-dummy.m */; };
+		1C7F0E0F74BEF42E7365C62D80B12E7B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BE746C4A6454DCABC29024080AC7F5 /* ReplaceMe.swift */; };
+		900A0EBCABE38C9E18BD6A457BA87F01 /* RedBoxCat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CD17D5EB58DD687D2F299A0FEC86A9 /* RedBoxCat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6A953124354722E575643D475E73D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C67B73D404D97C19CB06BE622FD34084 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CB2E512120CF16C7EB5A30207FBDBE3C /* Pods-RedBoxCat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 358BD34A23C73E3AEAD69B721436DAEA /* Pods-RedBoxCat_Tests-dummy.m */; };
+		F17E8EB8735B26D422B672835338CCF5 /* Pods-RedBoxCat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A06F6C4531F891A41164C2EB1119EB0F /* Pods-RedBoxCat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95673A6CE05DCED3FBBD4421AE717353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8A6288CAC06C10AA3A11594556F2FFD;
+			remoteInfo = RedBoxCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0617E08E06ADD29191505B60FB978E73 /* RedBoxCat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RedBoxCat.modulemap; sourceTree = "<group>"; };
+		10BE55F467A82F98F5EA38B62FABFB7B /* Pods-RedBoxCat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedBoxCat_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		17E08D857B45B2A5837348B46FB0A40C /* Pods-RedBoxCat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedBoxCat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		358BD34A23C73E3AEAD69B721436DAEA /* Pods-RedBoxCat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedBoxCat_Tests-dummy.m"; sourceTree = "<group>"; };
+		35CCCF86B6F32E15B176E48619D9D56D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDE64281D3399CD4D2971510680833D /* Pods-RedBoxCat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RedBoxCat_Tests.modulemap"; sourceTree = "<group>"; };
+		50CD17D5EB58DD687D2F299A0FEC86A9 /* RedBoxCat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedBoxCat-umbrella.h"; sourceTree = "<group>"; };
+		6E87511F1A6303ECF574CFC1D54873E6 /* Pods-RedBoxCat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedBoxCat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80BC71585AE211483CF5560DFA9A70E1 /* RedBoxCat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedBoxCat-prefix.pch"; sourceTree = "<group>"; };
+		811A72091266D99BC8899E22045ED4BC /* RedBoxCat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RedBoxCat.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A06F6C4531F891A41164C2EB1119EB0F /* Pods-RedBoxCat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedBoxCat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AB9EDDA30B9685124EFF1070F8FCB685 /* Pods-RedBoxCat_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedBoxCat_Tests-resources.sh"; sourceTree = "<group>"; };
+		B35AA2806F0EBB478C684018740814E3 /* RedBoxCat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RedBoxCat-dummy.m"; sourceTree = "<group>"; };
+		B7BE746C4A6454DCABC29024080AC7F5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		CABD7696AAB29FF5CB29DD1A0DB27DE0 /* Pods_RedBoxCat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedBoxCat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D16F37AE7AE12515E785DE79FD536C91 /* Pods-RedBoxCat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedBoxCat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D51985B1EA1C386C7F772998C224603B /* RedBoxCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedBoxCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D933C4A8F49FE80A8BDC493CE9CDF852 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79A73D3BAD3944B0485CD6AA6EE0C00 /* Pods-RedBoxCat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedBoxCat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E310876265CDF289146DC99F84690E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A953124354722E575643D475E73D42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C44F1441F3FF3E7DEC8F0C38E02541DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67B73D404D97C19CB06BE622FD34084 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAE3FACA91DAAAA9EB8733F484FBB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CABD7696AAB29FF5CB29DD1A0DB27DE0 /* Pods_RedBoxCat_Tests.framework */,
+				D51985B1EA1C386C7F772998C224603B /* RedBoxCat.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3162BCD7E3DEE0C99BFC1005D158CD90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C5B6BE55C9A71C36BA20AD2E51B460 /* Pods-RedBoxCat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3F7A8B12C9921ED795CF21F087F2C265 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D933C4A8F49FE80A8BDC493CE9CDF852 /* Info.plist */,
+				0617E08E06ADD29191505B60FB978E73 /* RedBoxCat.modulemap */,
+				811A72091266D99BC8899E22045ED4BC /* RedBoxCat.xcconfig */,
+				B35AA2806F0EBB478C684018740814E3 /* RedBoxCat-dummy.m */,
+				80BC71585AE211483CF5560DFA9A70E1 /* RedBoxCat-prefix.pch */,
+				50CD17D5EB58DD687D2F299A0FEC86A9 /* RedBoxCat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RedBoxCat";
+			sourceTree = "<group>";
+		};
+		5B34DAD4E6C8376B017AE3C9B86A1840 /* RedBoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				F0DEF28E8F4921E55DE6AD094AE89AAC /* RedBoxCat */,
+				3F7A8B12C9921ED795CF21F087F2C265 /* Support Files */,
+			);
+			name = RedBoxCat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68DF6A4A2FEB96C254E21847B02263A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE746C4A6454DCABC29024080AC7F5 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D3A648E284AC93C06F562ECDA06CD01A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2CAE3FACA91DAAAA9EB8733F484FBB88 /* Products */,
+				3162BCD7E3DEE0C99BFC1005D158CD90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97C5B6BE55C9A71C36BA20AD2E51B460 /* Pods-RedBoxCat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35CCCF86B6F32E15B176E48619D9D56D /* Info.plist */,
+				3FDE64281D3399CD4D2971510680833D /* Pods-RedBoxCat_Tests.modulemap */,
+				D16F37AE7AE12515E785DE79FD536C91 /* Pods-RedBoxCat_Tests-acknowledgements.markdown */,
+				6E87511F1A6303ECF574CFC1D54873E6 /* Pods-RedBoxCat_Tests-acknowledgements.plist */,
+				358BD34A23C73E3AEAD69B721436DAEA /* Pods-RedBoxCat_Tests-dummy.m */,
+				10BE55F467A82F98F5EA38B62FABFB7B /* Pods-RedBoxCat_Tests-frameworks.sh */,
+				AB9EDDA30B9685124EFF1070F8FCB685 /* Pods-RedBoxCat_Tests-resources.sh */,
+				A06F6C4531F891A41164C2EB1119EB0F /* Pods-RedBoxCat_Tests-umbrella.h */,
+				E79A73D3BAD3944B0485CD6AA6EE0C00 /* Pods-RedBoxCat_Tests.debug.xcconfig */,
+				17E08D857B45B2A5837348B46FB0A40C /* Pods-RedBoxCat_Tests.release.xcconfig */,
+			);
+			name = "Pods-RedBoxCat_Tests";
+			path = "Target Support Files/Pods-RedBoxCat_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3A648E284AC93C06F562ECDA06CD01A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B34DAD4E6C8376B017AE3C9B86A1840 /* RedBoxCat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F0DEF28E8F4921E55DE6AD094AE89AAC /* RedBoxCat */ = {
+			isa = PBXGroup;
+			children = (
+				68DF6A4A2FEB96C254E21847B02263A2 /* Classes */,
+			);
+			path = RedBoxCat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FCD32EFD3E139B9D2EDE534503612DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17E8EB8735B26D422B672835338CCF5 /* Pods-RedBoxCat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C04181EDBE3F73F8B1B900A0D5C886 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900A0EBCABE38C9E18BD6A457BA87F01 /* RedBoxCat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F141349B63D0031A57C31DD5A37D026 /* Pods-RedBoxCat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C4474822FF57A42CD424C0C8C311A04 /* Build configuration list for PBXNativeTarget "Pods-RedBoxCat_Tests" */;
+			buildPhases = (
+				2EDB1B9C2085BA0A35134016BB7E58CF /* Sources */,
+				C44F1441F3FF3E7DEC8F0C38E02541DA /* Frameworks */,
+				0FCD32EFD3E139B9D2EDE534503612DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADEDF82E9F88FD72051CB0F20536752 /* PBXTargetDependency */,
+			);
+			name = "Pods-RedBoxCat_Tests";
+			productName = "Pods-RedBoxCat_Tests";
+			productReference = CABD7696AAB29FF5CB29DD1A0DB27DE0 /* Pods_RedBoxCat_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8A6288CAC06C10AA3A11594556F2FFD /* RedBoxCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6D6A68C7148006CBDAC2484609528D /* Build configuration list for PBXNativeTarget "RedBoxCat" */;
+			buildPhases = (
+				64D7E0D0C1C36283AE81A88121437685 /* Sources */,
+				58E310876265CDF289146DC99F84690E /* Frameworks */,
+				E8C04181EDBE3F73F8B1B900A0D5C886 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedBoxCat;
+			productName = RedBoxCat;
+			productReference = D51985B1EA1C386C7F772998C224603B /* RedBoxCat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2CAE3FACA91DAAAA9EB8733F484FBB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F141349B63D0031A57C31DD5A37D026 /* Pods-RedBoxCat_Tests */,
+				A8A6288CAC06C10AA3A11594556F2FFD /* RedBoxCat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EDB1B9C2085BA0A35134016BB7E58CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2E512120CF16C7EB5A30207FBDBE3C /* Pods-RedBoxCat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D7E0D0C1C36283AE81A88121437685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFD142E8FED9BBDA115E0E8C66E0270 /* RedBoxCat-dummy.m in Sources */,
+				1C7F0E0F74BEF42E7365C62D80B12E7B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BADEDF82E9F88FD72051CB0F20536752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedBoxCat;
+			target = A8A6288CAC06C10AA3A11594556F2FFD /* RedBoxCat */;
+			targetProxy = 95673A6CE05DCED3FBBD4421AE717353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EA1DB10B01C83E9EC69E002ACAFC0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811A72091266D99BC8899E22045ED4BC /* RedBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RedBoxCat/RedBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RedBoxCat/RedBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RedBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53211DC48FAD59AB5EADA5EF1FF70381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811A72091266D99BC8899E22045ED4BC /* RedBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RedBoxCat/RedBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RedBoxCat/RedBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RedBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61C01C03FC6109BC5E3E0D7989AD0002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79A73D3BAD3944B0485CD6AA6EE0C00 /* Pods-RedBoxCat_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedBoxCat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedBoxCat_Tests/Pods-RedBoxCat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedBoxCat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE959088E9C39CF89504B704DA6CEEEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E08D857B45B2A5837348B46FB0A40C /* Pods-RedBoxCat_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedBoxCat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedBoxCat_Tests/Pods-RedBoxCat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedBoxCat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C4474822FF57A42CD424C0C8C311A04 /* Build configuration list for PBXNativeTarget "Pods-RedBoxCat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C01C03FC6109BC5E3E0D7989AD0002 /* Debug */,
+				EE959088E9C39CF89504B704DA6CEEEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C6D6A68C7148006CBDAC2484609528D /* Build configuration list for PBXNativeTarget "RedBoxCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA1DB10B01C83E9EC69E002ACAFC0E1 /* Debug */,
+				53211DC48FAD59AB5EADA5EF1FF70381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module BlueBoxCat {
+  umbrella header "BlueBoxCat-umbrella.h"
+
+  export *
+  module * { export * }
+}

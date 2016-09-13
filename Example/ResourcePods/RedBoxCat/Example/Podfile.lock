@@ -1,0 +1,16 @@
+PODS:
+  - RedBoxCat (0.1.0)
+
+DEPENDENCIES:
+  - RedBoxCat (from `../`)
+
+EXTERNAL SOURCES:
+  RedBoxCat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RedBoxCat: ad0e48311926af767aaeed3655ce6d0c519052c5
+
+PODFILE CHECKSUM: c436cf1f94ce03851a01747a3bb9326ab741a8d1
+
+COCOAPODS: 1.0.1
