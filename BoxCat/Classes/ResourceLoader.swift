@@ -20,14 +20,14 @@ class ResourceLoader: NSObject {
         }
         
         // search in sub bundles
-        for subBundle in bundle.bundles {
+        for subBundle in bundle.bundles.filteredBy(names: searchOptions.bundlesToSearchOnly ?? []) {
             if let image = ResourceLoader.image(named: named, bundle: subBundle) {
                 return image
             }
         }
         
         // search in frameworks
-        for subBundle in bundle.frameworks {
+        for subBundle in bundle.frameworks.filteredBy(names: searchOptions.frameworksToSearchOnly ?? []) {
             if let image = ResourceLoader.image(named: named, bundle: subBundle) {
                 return image
             }

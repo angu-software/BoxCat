@@ -20,7 +20,7 @@
   },
   "source_files": "BlueBoxCat/Classes/**/*",
   "resource_bundles": {
-    "BlueBoxCat": [
+    "BlueBoxCatResourcesBundle": [
       "BlueBoxCat/Assets/*.png"
     ]
   }

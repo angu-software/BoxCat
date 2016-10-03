@@ -9,8 +9,13 @@
 import Foundation
 
 public struct SearchOptions {
-    var frameworksToSearchOnly: [String]?
-    var bundlesToSearchOnly: [String]?
+    public let frameworksToSearchOnly: [String]?
+    public let bundlesToSearchOnly: [String]?
+    
+    public init(frameworksToSearchOnly: [String]? = nil, bundlesToSearchOnly: [String]? = nil) {
+        self.frameworksToSearchOnly = frameworksToSearchOnly
+        self.bundlesToSearchOnly = bundlesToSearchOnly
+    }
 }
 
 public struct BoxCat {
@@ -19,12 +24,12 @@ public struct BoxCat {
 
 public extension UIImage {
     public static func named(_ name: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UIImage? {
-        return ResourceLoader.image(name, bundle: bundle, searchOptions: searchOptions)
+        return ResourceLoader.image(named: name, bundle: bundle, searchOptions: searchOptions)
     }
 }
 
 public extension UINib {
     public static func named(_ name: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UINib? {
-        return ResourceLoader.nib(name, bundle: bundle, searchOptions: searchOptions)
+        return ResourceLoader.nib(named: name, bundle: bundle, searchOptions: searchOptions)
     }
 }

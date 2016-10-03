@@ -15,6 +15,10 @@ class ImagesViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let searchOptions = SearchOptions(frameworksToSearchOnly: ["RedBoxCat", "BlueBoxCat"],
+                                          bundlesToSearchOnly: ["BlueBoxCatResourcesBundle"])
+        BoxCat.defaultSearchOptions = searchOptions
     }
     
     // MARK - UITableViewDataSource
@@ -27,7 +31,7 @@ class ImagesViewController: UITableViewController {
         
         let imageCell = tableView.dequeueReusableCell(withIdentifier: "ImageCell", for: indexPath) as! ImageTableViewCell
         
-        guard let boxCatImage = UIImage.image(imageNames[(indexPath as NSIndexPath).row]) else {
+        guard let boxCatImage = UIImage.named(imageNames[(indexPath as NSIndexPath).row]) else {
             print("ImagesViewController > ERROR: loading image '\(imageNames[(indexPath as NSIndexPath).row])' failed!")
             return imageCell
         }
