@@ -8,33 +8,27 @@
 
 import UIKit
 
-public extension UIImage {
-    public static func image(name: String, bundle: NSBundle? = nil) -> UIImage? {
-        return ResourceLoader.image(name, bundle: bundle)
-    }
-}
+class ResourceLoader: NSObject {
 
-public class ResourceLoader: NSObject {
-
-    public static func image(name: String, bundle: NSBundle? = nil) -> UIImage? {
+    static func image(named: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UIImage? {
         
-        let bundle = bundle ?? NSBundle.mainBundle()
+        let bundle = bundle ?? Bundle.main
         
         // find bundle with image
-        if let image = UIImage(named: name, inBundle: bundle, compatibleWithTraitCollection: nil) {
+        if let image = UIImage(named: named, in: bundle, compatibleWith: nil) {
             return image
         }
         
         // search in sub bundles
         for subBundle in bundle.bundles {
-            if let image = ResourceLoader.image(name, bundle: subBundle) {
+            if let image = ResourceLoader.image(named: named, bundle: subBundle) {
                 return image
             }
         }
         
         // search in frameworks
         for subBundle in bundle.frameworks {
-            if let image = ResourceLoader.image(name, bundle: subBundle) {
+            if let image = ResourceLoader.image(named: named, bundle: subBundle) {
                 return image
             }
         }
@@ -42,24 +36,24 @@ public class ResourceLoader: NSObject {
         return nil
     }
     
-    public static func nib(name: String, bundle: NSBundle? = nil) -> UINib? {
+    static func nib(named: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UINib? {
         
-        let bundle = bundle ?? NSBundle.mainBundle()
+        let bundle = bundle ?? Bundle.main
         
-        if bundle.pathForResource(name, ofType: "nib") != nil {
-            return UINib(nibName: name, bundle: bundle)
+        if bundle.path(forResource: named, ofType: "nib") != nil {
+            return UINib(nibName: named, bundle: bundle)
         }
         
         // search in sub bundles
         for subBundle in bundle.bundles {
-            if let nib = ResourceLoader.nib(name, bundle: subBundle) {
+            if let nib = ResourceLoader.nib(named: named, bundle: subBundle) {
                 return nib
             }
         }
         
         // search in frameworks
         for subBundle in bundle.frameworks {
-            if let nib = ResourceLoader.nib(name, bundle: subBundle) {
+            if let nib = ResourceLoader.nib(named: named, bundle: subBundle) {
                 return nib
             }
         }
@@ -67,7 +61,7 @@ public class ResourceLoader: NSObject {
         return nil
     }
     
-    public static func font(name: String, size: CGFloat) -> UIFont? {
+    static func font(named: String, size: CGFloat) -> UIFont? {
         // load dynamically http://www.mokacoding.com/blog/sharing-assets-with-cocoapods-resource-bundle-and-dynamically-loaded-fonts/
         
         return nil

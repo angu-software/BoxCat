@@ -37,7 +37,7 @@ class ImageTableViewCell: UITableViewCell {
         }
     }
     
-    @IBOutlet private weak var bundleImageView: UIImageView!
-    @IBOutlet private weak var bundleImageNameLabel: UILabel!
-    @IBOutlet private weak var bundleNameLabel: UILabel!
+    @IBOutlet fileprivate weak var bundleImageView: UIImageView!
+    @IBOutlet fileprivate weak var bundleImageNameLabel: UILabel!
+    @IBOutlet fileprivate weak var bundleNameLabel: UILabel!
 }

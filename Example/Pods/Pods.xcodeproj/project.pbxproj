@@ -29,6 +29,7 @@
 		CCF6A29A6CA79971682608EE845D9F72 /* BoxCat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C14B20354A4CEFFC87C2CE6459E3F /* BoxCat-dummy.m */; };
 		D24778E5C7501930ECFFC047E261012B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F235A73AA7C4EEB65A36D49C16726D7 /* ReplaceMe.swift */; };
 		DE00164ECA727093124DCCD0880366E4 /* img_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9B7C2E753625FA0E5C9824AF8449D69 /* img_blue@3x.png */; };
+		E151DB681DA20D6600748190 /* BoxCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E151DB661DA169C900748190 /* BoxCat.swift */; };
 		F01595958CBFBE9A83C5629B20E0D19F /* img_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DC634374B8304DC19A599789B321E6E1 /* img_red.png */; };
 		F2B773D88C76A73597EC65E0D5DF97F5 /* BlueBoxCat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AFBEE1A79D010083C08A486341E9BE /* BlueBoxCat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6706B92437010904BAD203ED0DEDA41 /* img_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0275AB32DCB1025E9723D2B5BFEDB /* img_red@2x.png */; };
@@ -118,6 +119,7 @@
 		DB676A36F240A651E251C87D2390C668 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC634374B8304DC19A599789B321E6E1 /* img_red.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = img_red.png; sourceTree = "<group>"; };
 		DE641AD78BD42B3487D3F2D094FAFB19 /* Pods-BoxCat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoxCat_Example-dummy.m"; sourceTree = "<group>"; };
+		E151DB661DA169C900748190 /* BoxCat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxCat.swift; sourceTree = "<group>"; };
 		E498A3E30E65974FD4BB93276F33E5D7 /* Pods_BoxCat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoxCat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7AFBEE1A79D010083C08A486341E9BE /* BlueBoxCat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueBoxCat-umbrella.h"; sourceTree = "<group>"; };
 		FB1FD5E8ECF3564B53D8450AFB51C047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -392,6 +394,7 @@
 		993638071499E05F4A03C1698A239EBA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E151DB661DA169C900748190 /* BoxCat.swift */,
 				674BACFD06429F0C06F7E3E76320EFD6 /* NSBundle+BoxCat.swift */,
 				2C97A21EDB048E6630A152CA21756C29 /* ResourceLoader.swift */,
 			);
@@ -610,6 +613,26 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					08A91875ADD8FBECD93DF29B7365B66B = {
+						LastSwiftMigration = 0800;
+					};
+					14C2508B9460FA4B264184A36050B131 = {
+						LastSwiftMigration = 0800;
+					};
+					15243ADC2AC5C148F074790E47FDF9FB = {
+						LastSwiftMigration = 0800;
+					};
+					5E887F30ADA1270F68A25329A0F324DE = {
+						LastSwiftMigration = 0800;
+					};
+					7CCC64E13AE8741917A547CBC356875C = {
+						LastSwiftMigration = 0800;
+					};
+					F63CA977663561AB022DA7049926F9C8 = {
+						LastSwiftMigration = 0800;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -685,6 +708,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E151DB681DA20D6600748190 /* BoxCat.swift in Sources */,
 				CCF6A29A6CA79971682608EE845D9F72 /* BoxCat-dummy.m in Sources */,
 				4B8F76CFD90688BF57616F009C0816FD /* NSBundle+BoxCat.swift in Sources */,
 				8F1058C0D0645AFB45F179DFA84457B3 /* ResourceLoader.swift in Sources */,
@@ -808,6 +832,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -841,6 +866,7 @@
 				PRODUCT_NAME = Pods_BoxCat_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -874,6 +900,7 @@
 				PRODUCT_NAME = Pods_BoxCat_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -903,6 +930,7 @@
 				PRODUCT_NAME = BlueBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -933,6 +961,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -963,6 +992,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -981,6 +1011,7 @@
 				PRODUCT_NAME = BlueBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1014,6 +1045,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1047,6 +1079,7 @@
 				PRODUCT_NAME = Pods_BoxCat_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1065,6 +1098,7 @@
 				PRODUCT_NAME = BlueBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -1135,6 +1169,7 @@
 				PRODUCT_NAME = BoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1164,6 +1199,7 @@
 				PRODUCT_NAME = RedBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

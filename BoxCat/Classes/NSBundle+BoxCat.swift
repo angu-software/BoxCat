@@ -8,18 +8,18 @@
 
 import Foundation
 
-extension NSBundle {
-    var bundles: [NSBundle] {
+extension Bundle {
+    var bundles: [Bundle] {
         return bundles("bundle")
     }
     
-    var frameworks: [NSBundle] {
+    var frameworks: [Bundle] {
         return bundles("framework", inDirectory: "Frameworks")
     }
     
-    private func bundles(type: String, inDirectory directory: String? = nil) -> [NSBundle] {
-        let subBundlePaths = pathsForResourcesOfType(type, inDirectory: directory)
-        if let subBundles = subBundlePaths.map({NSBundle(path: $0)!}) as? [NSBundle] {
+    fileprivate func bundles(_ type: String, inDirectory directory: String? = nil) -> [Bundle] {
+        let subBundlePaths = paths(forResourcesOfType: type, inDirectory: directory)
+        if let subBundles = subBundlePaths.map({Bundle(path: $0)!}) as? [Bundle] {
             return subBundles
         }
         return []

@@ -11,7 +11,7 @@ import BoxCat
 
 class ImagesViewController: UITableViewController {
 
-    private let imageNames = ["img_green", "img_red", "img_blue"]
+    fileprivate let imageNames = ["img_green", "img_red", "img_blue"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,16 +19,16 @@ class ImagesViewController: UITableViewController {
     
     // MARK - UITableViewDataSource
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return imageNames.count
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let imageCell = tableView.dequeueReusableCellWithIdentifier("ImageCell", forIndexPath: indexPath) as! ImageTableViewCell
+        let imageCell = tableView.dequeueReusableCell(withIdentifier: "ImageCell", for: indexPath) as! ImageTableViewCell
         
-        guard let boxCatImage = UIImage.image(imageNames[indexPath.row]) else {
-            print("ImagesViewController > ERROR: loading image '\(imageNames[indexPath.row])' failed!")
+        guard let boxCatImage = UIImage.image(imageNames[(indexPath as NSIndexPath).row]) else {
+            print("ImagesViewController > ERROR: loading image '\(imageNames[(indexPath as NSIndexPath).row])' failed!")
             return imageCell
         }
         
