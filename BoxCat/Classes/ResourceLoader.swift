@@ -19,21 +19,9 @@ class ResourceLoader: NSObject {
             return image
         }
         
-        // search in sub bundles
-        for subBundle in bundle.bundles.filteredBy(names: searchOptions.bundlesToSearchOnly ?? []) {
-            if let image = ResourceLoader.image(named: named, bundle: subBundle) {
-                return image
-            }
+        return lookupResource(named: named, in: bundle, searchOptions: searchOptions) { (resourceName, subBundle) -> UIImage? in
+            return ResourceLoader.image(named: resourceName, bundle: subBundle)
         }
-        
-        // search in frameworks
-        for subBundle in bundle.frameworks.filteredBy(names: searchOptions.frameworksToSearchOnly ?? []) {
-            if let image = ResourceLoader.image(named: named, bundle: subBundle) {
-                return image
-            }
-        }
-        
-        return nil
     }
     
     static func nib(named: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UINib? {
@@ -44,21 +32,9 @@ class ResourceLoader: NSObject {
             return UINib(nibName: named, bundle: bundle)
         }
         
-        // search in sub bundles
-        for subBundle in bundle.bundles {
-            if let nib = ResourceLoader.nib(named: named, bundle: subBundle) {
-                return nib
-            }
-        }
-        
-        // search in frameworks
-        for subBundle in bundle.frameworks {
-            if let nib = ResourceLoader.nib(named: named, bundle: subBundle) {
-                return nib
-            }
-        }
-        
-        return nil
+        return lookupResource(named: named, in: bundle, searchOptions: searchOptions, lookupClosure: { (resourceName, subBundle) -> UINib? in
+            return ResourceLoader.nib(named: resourceName, bundle: subBundle)
+        })
     }
     
     static func font(named: String, size: CGFloat) -> UIFont? {
@@ -66,4 +42,26 @@ class ResourceLoader: NSObject {
         
         return nil
     }
+    
+    // MARK: private methods
+    
+    private static func lookupResource<ResourceType>(named: String, in bundle: Bundle, searchOptions: SearchOptions, lookupClosure: (_ resourceName: String, _ subBundle: Bundle) -> ResourceType?) -> ResourceType? {
+        
+        // TODO: also sort by order specified in the bundlesToSearchOnly
+        for subBundle in bundle.bundles.filteredBy(names: searchOptions.bundlesToSearchOnly ?? []) {
+            if let resource = lookupClosure(named, subBundle) {
+                return resource
+            }
+        }
+        
+        // search in frameworks
+        for subBundle in bundle.frameworks.filteredBy(names: searchOptions.frameworksToSearchOnly ?? []) {
+            if let resource = lookupClosure(named, subBundle) {
+                return resource
+            }
+        }
+        
+        return nil
+    }
+    
 }
