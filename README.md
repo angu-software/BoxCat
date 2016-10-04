@@ -7,11 +7,11 @@
 
 *Bundled resource loading made easy*
 
-*BoxCat* provides an easy interface for loading resources form no mater were they are located in the application bundle. It's able to load resources from main app bundle as well from nested resource bundles and contained frameworks, e.g. Pods that containing images, xib-files and any other types of resources.
+BoxCat provides an easy interface for loading resources from no matter were they are located in the application bundle. It's able to load resources from main app bundle as well from nested resource bundles and contained frameworks, e.g. Pods that containing images, xib-files and any other types of resources.
 
 ### Loading resources from Pods and resource bundles
 
-Its main purpose is to load resources from resource bundles that may be contained in Pods. See [Cocoapods bundled resources](https://guides.cocoapods.org/syntax/podspec.html#resource_bundles) for more info. Thus for the unified interface its also possible to exchange the iOS SDK solution for lading resources, especially if you plan to move some resources into pods in future. You won't even need to change code for loading the resources.
+Its main purpose is to load resources from resource bundles that may be contained in Pods. See [Cocoapods bundled resources](https://guides.cocoapods.org/syntax/podspec.html#resource_bundles) for more info. Thus for the unified interface it's also possible to exchange the iOS SDK solution for lading resources, especially if you plan to move some resources into pods in future. You won't even need to change code for loading the resources.
 
 ### Overriding resources
 
