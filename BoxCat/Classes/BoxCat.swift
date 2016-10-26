@@ -8,28 +8,28 @@
 
 import Foundation
 
-public struct SearchOptions {
-    public let frameworksToSearchOnly: [String]?
-    public let bundlesToSearchOnly: [String]?
+public struct LookupFilter {
+    public let frameworks: [String]?
+    public let bundles: [String]?
     
-    public init(frameworksToSearchOnly: [String]? = nil, bundlesToSearchOnly: [String]? = nil) {
-        self.frameworksToSearchOnly = frameworksToSearchOnly
-        self.bundlesToSearchOnly = bundlesToSearchOnly
+    public init(frameworks: [String]? = nil, bundles: [String]? = nil) {
+        self.frameworks = frameworks
+        self.bundles = bundles
     }
 }
 
 public struct BoxCat {
-    public static var defaultSearchOptions = SearchOptions()
+    public static var lookupFilter = LookupFilter()
 }
 
 public extension UIImage {
-    public static func named(_ name: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UIImage? {
-        return ResourceLoader.image(named: name, bundle: bundle, searchOptions: searchOptions)
+    public static func named(_ name: String, bundle: Bundle? = nil, lookupFilter: LookupFilter = BoxCat.lookupFilter) -> UIImage? {
+        return ResourceLoader.image(named: name, bundle: bundle, lookupFilter: lookupFilter)
     }
 }
 
 public extension UINib {
-    public static func named(_ name: String, bundle: Bundle? = nil, searchOptions: SearchOptions = BoxCat.defaultSearchOptions) -> UINib? {
-        return ResourceLoader.nib(named: name, bundle: bundle, searchOptions: searchOptions)
+    public static func named(_ name: String, bundle: Bundle? = nil, lookupFilter: LookupFilter = BoxCat.lookupFilter) -> UINib? {
+        return ResourceLoader.nib(named: name, bundle: bundle, lookupFilter: lookupFilter)
     }
 }

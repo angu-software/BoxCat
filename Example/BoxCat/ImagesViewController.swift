@@ -16,9 +16,9 @@ class ImagesViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let searchOptions = SearchOptions(frameworksToSearchOnly: ["RedBoxCat", "BlueBoxCat"],
-                                          bundlesToSearchOnly: ["BlueBoxCatResourcesBundle"])
-        BoxCat.defaultSearchOptions = searchOptions
+        let lookupFilter = LookupFilter(frameworks: ["RedBoxCat", "BlueBoxCat"],
+                                          bundles: ["BlueBoxCatResourcesBundle"])
+        BoxCat.lookupFilter = lookupFilter
     }
     
     // MARK - UITableViewDataSource
