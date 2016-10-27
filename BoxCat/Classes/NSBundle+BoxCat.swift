@@ -27,10 +27,7 @@ extension Bundle {
     
     fileprivate func bundles(_ type: String, inDirectory directory: String? = nil) -> [Bundle] {
         let subBundlePaths = paths(forResourcesOfType: type, inDirectory: directory)
-        if let subBundles = subBundlePaths.map({Bundle(path: $0)!}) as? [Bundle] {
-            return subBundles
-        }
-        return []
+        return subBundlePaths.flatMap({Bundle(path: $0)})
     }
 }
 
@@ -51,7 +48,7 @@ extension Array where Element: Bundle {
         let count = self.count > names.count ? self.count : names.count
         var sortedIntersection = Array<Bundle?>(repeating: nil, count: count)
         
-        for (unsortedIndex, unsortedItem) in intersection.enumerated() {
+        for unsortedItem in intersection {
             if let sortedIndex = names.index(of: unsortedItem.name) {
                 sortedIntersection[sortedIndex] = unsortedItem
             }
