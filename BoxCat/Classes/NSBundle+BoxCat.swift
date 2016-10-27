@@ -35,11 +35,27 @@ extension Bundle {
 }
 
 extension Array where Element: Bundle {
+    
     func filteredBy(names: [String]) -> [Bundle] {
-        
         if names.count == 0 {
             return self
         }
         return self.filter({names.contains($0.name)})
+    }
+}
+
+extension Array where Element: Bundle {
+    
+    func sortedIntersectionOfBundlesWith(names: [String]) -> [Bundle] {
+        let intersection = self.filteredBy(names: names)
+        let count = self.count > names.count ? self.count : names.count
+        var sortedIntersection = Array<Bundle?>(repeating: nil, count: count)
+        
+        for (unsortedIndex, unsortedItem) in intersection.enumerated() {
+            if let sortedIndex = names.index(of: unsortedItem.name) {
+                sortedIntersection[sortedIndex] = unsortedItem
+            }
+        }
+        return sortedIntersection.flatMap({ $0 })
     }
 }

@@ -10,21 +10,20 @@ import UIKit
 
 class ResourceLoader: NSObject {
 
-    static func image(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter = BoxCat.lookupFilter) -> UIImage? {
+    static func image(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter) -> UIImage? {
         
         let bundle = bundle ?? Bundle.main
         
-        // find bundle with image
         if let image = UIImage(named: named, in: bundle, compatibleWith: nil) {
             return image
         }
         
         return lookupResource(named: named, in: bundle, lookupFilter: lookupFilter) { (resourceName, subBundle) -> UIImage? in
-            return ResourceLoader.image(named: resourceName, bundle: subBundle)
+            return ResourceLoader.image(named: resourceName, bundle: subBundle, lookupFilter: lookupFilter)
         }
     }
     
-    static func nib(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter = BoxCat.lookupFilter) -> UINib? {
+    static func nib(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter) -> UINib? {
         
         let bundle = bundle ?? Bundle.main
         
@@ -33,7 +32,7 @@ class ResourceLoader: NSObject {
         }
         
         return lookupResource(named: named, in: bundle, lookupFilter: lookupFilter, lookupClosure: { (resourceName, subBundle) -> UINib? in
-            return ResourceLoader.nib(named: resourceName, bundle: subBundle)
+            return ResourceLoader.nib(named: resourceName, bundle: subBundle, lookupFilter: lookupFilter)
         })
     }
     
@@ -47,15 +46,14 @@ class ResourceLoader: NSObject {
     
     private static func lookupResource<ResourceType>(named: String, in bundle: Bundle, lookupFilter: LookupFilter, lookupClosure: (_ resourceName: String, _ subBundle: Bundle) -> ResourceType?) -> ResourceType? {
         
-        // TODO: also sort by order specified in the bundlesToSearchOnly
-        for subBundle in bundle.bundles.filteredBy(names: lookupFilter.bundles ?? []) {
+        for subBundle in bundle.bundles.sortedIntersectionOfBundlesWith(names: lookupFilter.bundles ?? []) {
             if let resource = lookupClosure(named, subBundle) {
                 return resource
             }
         }
         
         // search in frameworks
-        for subBundle in bundle.frameworks.filteredBy(names: lookupFilter.frameworks ?? []) {
+        for subBundle in bundle.frameworks.sortedIntersectionOfBundlesWith(names: lookupFilter.frameworks ?? []) {
             if let resource = lookupClosure(named, subBundle) {
                 return resource
             }
