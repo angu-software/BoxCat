@@ -1,6 +1,6 @@
 # BoxCat
 
-[![CI Status](http://img.shields.io/travis/Andreas Günther/BoxCat.svg?style=flat)](https://travis-ci.org/Andreas Günther/BoxCat)
+[![CI Status](http://img.shields.io/travis/dreyhomedev/BoxCat.svg?style=flat)](https://travis-ci.org/dreyhomedev/BoxCat)
 [![Version](https://img.shields.io/cocoapods/v/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![License](https://img.shields.io/cocoapods/l/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![Platform](https://img.shields.io/cocoapods/p/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
