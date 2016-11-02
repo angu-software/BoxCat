@@ -61,5 +61,4 @@ class ResourceLoader: NSObject {
         
         return nil
     }
-    
 }
