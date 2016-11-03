@@ -10,7 +10,7 @@ import UIKit
 
 class ResourceLoader: NSObject {
 
-    static func image(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter) -> UIImage? {
+    static func image(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter?) -> UIImage? {
         
         let bundle = bundle ?? Bundle.main
         
@@ -23,7 +23,7 @@ class ResourceLoader: NSObject {
         }
     }
     
-    static func nib(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter) -> UINib? {
+    static func nib(named: String, bundle: Bundle? = nil, lookupFilter: LookupFilter?) -> UINib? {
         
         let bundle = bundle ?? Bundle.main
         
@@ -44,18 +44,28 @@ class ResourceLoader: NSObject {
     
     // MARK: private methods
     
-    private static func lookupResource<ResourceType>(named: String, in bundle: Bundle, lookupFilter: LookupFilter, lookupClosure: (_ resourceName: String, _ subBundle: Bundle) -> ResourceType?) -> ResourceType? {
+    private static func lookupResource<ResourceType>(named: String, in bundle: Bundle, lookupFilter: LookupFilter?, lookupClosure: (_ resourceName: String, _ subBundle: Bundle) -> ResourceType?) -> ResourceType? {
         
-        for subBundle in bundle.bundles.sortedIntersectionOfBundlesWith(names: lookupFilter.bundles ?? []) {
-            if let resource = lookupClosure(named, subBundle) {
-                return resource
+        guard let lookupFilter = lookupFilter else {
+            // no lookup filter specified. Ignoring contained bundles and frameworks.
+            return nil
+        }
+        
+        // lookup in contained bundles if the filter is specified.
+        if let lookupBundles = lookupFilter.bundles {
+            for subBundle in bundle.bundles.sortedIntersectionOfBundlesWith(names: lookupBundles) {
+                if let resource = lookupClosure(named, subBundle) {
+                    return resource
+                }
             }
         }
         
-        // search in frameworks
-        for subBundle in bundle.frameworks.sortedIntersectionOfBundlesWith(names: lookupFilter.frameworks ?? []) {
-            if let resource = lookupClosure(named, subBundle) {
-                return resource
+        // lookup in contained frameworks if the filter is specified.
+        if let lookupFrameworks = lookupFilter.frameworks {
+            for framework in bundle.frameworks.sortedIntersectionOfBundlesWith(names: lookupFrameworks) {
+                if let resource = lookupClosure(named, framework) {
+                    return resource
+                }
             }
         }
         

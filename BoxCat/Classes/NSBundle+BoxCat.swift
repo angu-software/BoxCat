@@ -37,7 +37,7 @@ extension Array where Element: Bundle {
         if names.count == 0 {
             return self
         }
-        return self.filter({names.contains($0.name)})
+        return self.filter({ names.contains($0.name) })
     }
 }
 

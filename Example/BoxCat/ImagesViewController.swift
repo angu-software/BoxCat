@@ -16,8 +16,8 @@ class ImagesViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let lookupFilter = LookupFilter(frameworks: ["BlueBoxCat", "RedBoxCat"],
-                                          bundles: ["BlueBoxCatResourcesBundle"])
+        let lookupFilter = LookupFilter(bundles: ["BlueBoxCatResourcesBundle"],
+                                        frameworks: ["BlueBoxCat", "RedBoxCat"])
         BoxCat.lookupFilter = lookupFilter
     }
     
