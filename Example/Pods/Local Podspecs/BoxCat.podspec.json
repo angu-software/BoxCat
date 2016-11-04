@@ -1,9 +1,9 @@
 {
   "name": "BoxCat",
   "version": "0.1.0",
-  "summary": "A short description of BoxCat.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/BoxCat",
+  "summary": "Convenient loading of bundled resources.",
+  "description": "BoxCat provides an easy interface for loading resources from no matter were they are located in the application bundle. It's able to load resources from main app bundle as well from nested resource bundles and contained frameworks, e.g. Pods that containing images, xib-files and any other types of resources.",
+  "homepage": "https://github.com/dreyhomedev/BoxCat",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Andreas Günther": "mailaguenther@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/BoxCat.git",
+    "git": "https://github.com/dreyhomedev/BoxCat.git",
     "tag": "0.1.0"
   },
   "platforms": {

@@ -11,6 +11,10 @@ import XCTest
 
 class LookupFilterTests: XCTestCase {
     
+    let mainBundleResource = "img_green"
+    let frameworkResource = "img_red"
+    let resourceBundleResource = "img_blue"
+    
     var mainBundle: Bundle?
     
     override func setUp() {
@@ -21,27 +25,62 @@ class LookupFilterTests: XCTestCase {
     
     override func tearDown() {
         mainBundle = nil
+        BoxCat.lookupFilter = nil
         super.tearDown()
     }
     
     func testNoLookupFiter() {
+        BoxCat.lookupFilter = nil
+        
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(frameworkResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(resourceBundleResource, bundle: mainBundle!))
+    }
+    
+    func testAllBundlesAndFranworks() {
+        BoxCat.lookupFilter = LookupFilter()
+        
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNotNil(UIImage.named(frameworkResource, bundle: mainBundle!))
+        XCTAssertNotNil(UIImage.named(resourceBundleResource, bundle: mainBundle!))
+        
+        BoxCat.lookupFilter = LookupFilter(bundles: [], frameworks: [])
+        
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNotNil(UIImage.named(frameworkResource, bundle: mainBundle!))
+        XCTAssertNotNil(UIImage.named(resourceBundleResource, bundle: mainBundle!))
         
     }
     
-    func testNoFramewokLookupFiter() {
+    func testBundlesOnlyLookupFiter() {
+        BoxCat.lookupFilter = LookupFilter(bundles: [], frameworks: nil)
         
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(frameworkResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(resourceBundleResource, bundle: mainBundle!))
     }
     
-    func testNoBundleLookupFiter() {
+    func testFrameworksOnlyLookupFiter() {
+        BoxCat.lookupFilter = LookupFilter(bundles: nil, frameworks: [])
         
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNotNil(UIImage.named(frameworkResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(resourceBundleResource, bundle: mainBundle!))
     }
     
-    func testEmptyFramewokLookupFiter() {
+    func testNoBundlesAndFrameworksLookupFiter() {
+        BoxCat.lookupFilter = LookupFilter(bundles: nil, frameworks: nil)
         
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(frameworkResource, bundle: mainBundle!))
+        XCTAssertNil(UIImage.named(resourceBundleResource, bundle: mainBundle!))
     }
     
-    func testEmptyBundleLookupFiter() {
+    func testOverrideGlobalLookupFilter() {
+        BoxCat.lookupFilter = nil
         
+        XCTAssertNotNil(UIImage.named(mainBundleResource, bundle: mainBundle!))
+        XCTAssertNotNil(UIImage.named(frameworkResource, bundle: mainBundle!, lookupFilter: LookupFilter()))
+        XCTAssertNotNil(UIImage.named(resourceBundleResource, bundle: mainBundle!, lookupFilter: LookupFilter()))
     }
-    
 }
