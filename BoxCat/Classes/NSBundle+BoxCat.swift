@@ -44,6 +44,11 @@ extension Array where Element: Bundle {
 extension Array where Element: Bundle {
     
     func sortedIntersectionOfBundlesWith(names: [String]) -> [Bundle] {
+        
+        guard names.count > 0 else {
+            return self
+        }
+        
         let intersection = self.filteredBy(names: names)
         let count = self.count > names.count ? self.count : names.count
         var sortedIntersection = Array<Bundle?>(repeating: nil, count: count)
