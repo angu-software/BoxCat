@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![License](https://img.shields.io/cocoapods/l/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![Platform](https://img.shields.io/cocoapods/p/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
+[![codecov](https://codecov.io/gh/dreyhomedev/BoxCat/branch/develop/graph/badge.svg)](https://codecov.io/gh/dreyhomedev/BoxCat)
 
 *Bundled resource loading made easy*
 
