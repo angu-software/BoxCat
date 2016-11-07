@@ -9,10 +9,9 @@ osx_image: xcode8
 before_install:
   - gem install cocoapods # Since Travis is not always on latest version
   - pod install --project-directory=Example
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -cF ios
 script:
 - pod lib lint
 - cd Example
 - xcodebuild -version
 - xcodebuild -workspace BoxCat.xcworkspace -scheme BoxCat_Tests -sdk iphonesimulator10.0 -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' -enableCodeCoverage YES ONLY_ACTIVE_ARCH=NO test
+- bash <(curl -s https://codecov.io/bash) -J 'BoxCat' -cF ios
