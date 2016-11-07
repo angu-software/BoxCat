@@ -15,3 +15,4 @@ script:
 - xcodebuild -version
 - xcodebuild -workspace BoxCat.xcworkspace -scheme BoxCat_Tests -sdk iphonesimulator10.0 -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' -enableCodeCoverage YES ONLY_ACTIVE_ARCH=NO test
 - bash <(curl -s https://codecov.io/bash) -J '^BoxCat' -vcF ios
+- ls -al
