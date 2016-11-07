@@ -62,7 +62,8 @@ class ResourceLoader: NSObject {
         
         // lookup in contained frameworks if the filter is specified.
         if let lookupFrameworks = lookupFilter.frameworks {
-            for framework in bundle.frameworks.sortedIntersectionOfBundlesWith(names: lookupFrameworks) {
+            let frameworks = bundle.frameworks.sortedIntersectionOfBundlesWith(names: lookupFrameworks)
+            for framework in frameworks {
                 if let resource = lookupClosure(named, framework) {
                     return resource
                 }

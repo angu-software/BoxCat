@@ -8,6 +8,8 @@ target 'BoxCat_Example' do
   target 'BoxCat_Tests' do
     inherit! :search_paths
 
-    
+    pod 'RedBoxCat', :path => './ResourcePods/RedBoxCat'
+    pod 'BlueBoxCat', :path => './ResourcePods/BlueBoxCat'
+
   end
 end
