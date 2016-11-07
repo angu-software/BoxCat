@@ -12,5 +12,7 @@ before_install:
 after_success:
   - bash <(curl -s https://codecov.io/bash) -J 'BoxCat-Example' -cF ios -X gcov
 script:
-- set -o pipefail && xcodebuild -workspace Example/BoxCat.xcworkspace -scheme BoxCat-Example -sdk iphonesimulator10.0 -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' -enableCodeCoverage YES ONLY_ACTIVE_ARCH=NO test
+- cd Example
+- xcodebuild -version
+- xcodebuild -workspace BoxCat.xcworkspace -scheme BoxCat_Tests -sdk iphonesimulator10.0 -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.0' -enableCodeCoverage YES ONLY_ACTIVE_ARCH=NO test
 - pod lib lint
