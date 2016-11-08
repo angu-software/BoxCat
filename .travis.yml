@@ -16,14 +16,14 @@ podfile: Podfile
 
 osx_image: xcode8
 
-  before_install:
-    - gem install cocoapods # Since Travis is not always on latest version
-    - pod install --project-directory=Example
-  before_script:
-    - pod lib lint --quick
-    - xcodebuild -version
-  after_success:
-    - bash <(curl -s https://codecov.io/bash) -J '^BoxCat$' -cF ios  
-  script:
-    - xcodebuild -workspace $WORKSPACE -scheme $SCHEME -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ENABLE_TESTABILITY=YES -enableCodeCoverage $COVERAGE test | xcpretty;
+before_install:
+  - gem install cocoapods # Since Travis is not always on latest version
+  - pod install --project-directory=Example
+before_script:
+  - pod lib lint --quick
+  - xcodebuild -version
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -J '^BoxCat$' -cF ios  
+script:
+  - xcodebuild -workspace $WORKSPACE -scheme $SCHEME -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ENABLE_TESTABILITY=YES -enableCodeCoverage $COVERAGE test | xcpretty;
 
