@@ -1,10 +1,12 @@
 # BoxCat
 
-[![CI Status](http://img.shields.io/travis/dreyhomedev/BoxCat.svg?style=flat)](https://travis-ci.org/dreyhomedev/BoxCat)
+[![Language: Swift3](https://img.shields.io/badge/lang-Swift-yellow.svg?style=flat)](https://developer.apple.com/swift/)
+[![Platform](https://img.shields.io/cocoapods/p/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![Version](https://img.shields.io/cocoapods/v/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![License](https://img.shields.io/cocoapods/l/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
-[![Platform](https://img.shields.io/cocoapods/p/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
-[![codecov](https://codecov.io/gh/dreyhomedev/BoxCat/branch/develop/graph/badge.svg)](https://codecov.io/gh/dreyhomedev/BoxCat)
+[![CI Status](http://img.shields.io/travis/devdrey/BoxCat.svg?style=flat)](https://travis-ci.org/devdrey/BoxCat)
+[![codecov](https://codecov.io/gh/devdrey/BoxCat/branch/develop/graph/badge.svg)](https://codecov.io/gh/devdrey/BoxCat)
+[![DocCov](https://img.shields.io/cocoapods/metrics/doc-percent/BoxCat.svg)](http://cocoadocs.org/docsets/BoxCat)
 
 *Bundled resource loading made easy*
 
