@@ -70,6 +70,10 @@ The contained example shows how to load images from main bundle, a pod containin
 
 You will also notice the use of the `LookupFilter` _BoxCat_ provides. They limit the searching to specific frameworks and (sub)bundles in the app bundle hierarchy. That enhances the loading speed of the resources if you have many pods included that my not contain resources like iOS Frameworks.
 
+## Author
+
+[@devdrey](devdrey@dreyhomenet.de)
+
 ## License
 
 _BoxCat_ is available under the MIT license. See the LICENSE file for more info.
