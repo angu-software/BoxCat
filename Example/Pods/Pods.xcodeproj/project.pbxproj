@@ -788,38 +788,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13DA657697C24AB7DF98978F0852837D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB175C240BAA5EE01B8542986572D4CD /* BlueBoxCat.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BlueBoxCat/BlueBoxCat-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BlueBoxCat/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BlueBoxCat/BlueBoxCat.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BlueBoxCat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25940D4B9719BB9445DA7E55AEC3DCE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65DC83FAB8DD9D1F69213109C5EC379D /* Pods-BoxCat_Tests.release.xcconfig */;
@@ -871,6 +839,70 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		35D9E163C1384ECE0DFD7CCC159D610F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB175C240BAA5EE01B8542986572D4CD /* BlueBoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueBoxCat/BlueBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueBoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlueBoxCat/BlueBoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BlueBoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		379E0D27AE4CECC7C3FB422E7FB37F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BoxCat/BoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BoxCat/BoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5810FDAC0CADF5C02E33F2D0615CA026 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -924,6 +956,39 @@
 			};
 			name = Release;
 		};
+		7F43A1D8D2642A11868F74FC3AF6F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BoxCat/BoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BoxCat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BoxCat/BoxCat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BoxCat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8085B2332EC042B968FCC20A6AF7931C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86C9D8B0839AB26D2774D6342EE32C75 /* Pods-BoxCat_Example.debug.xcconfig */;
@@ -959,71 +1024,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8178AFC3FF304DBAFF53C5AEA9D25D22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RedBoxCat/RedBoxCat-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RedBoxCat/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RedBoxCat/RedBoxCat.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RedBoxCat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		86E61EEAE3C8C55CA9E91BDE594E08A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BoxCat/BoxCat-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BoxCat/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BoxCat/BoxCat.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BoxCat;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1145,7 +1145,7 @@
 			};
 			name = Debug;
 		};
-		B8EEF153499C4C51E05EE44D6F140576 /* Release */ = {
+		D251D3DE6DCA5252E2E7823F4E4D44E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */;
 			buildSettings = {
@@ -1170,16 +1170,16 @@
 				PRODUCT_NAME = RedBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		CB5CE67262901F268A2559411332B83F /* Debug */ = {
+		D444E53C735E5E111DCCCD882ED1AC2F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DD890B2815FE806A82663E288BBE57A /* BoxCat.xcconfig */;
+			baseConfigurationReference = 05EDD5C86A61E0C07001C3895852E363 /* RedBoxCat.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1192,25 +1192,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BoxCat/BoxCat-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BoxCat/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RedBoxCat/RedBoxCat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedBoxCat/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BoxCat/BoxCat.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RedBoxCat/RedBoxCat.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BoxCat;
+				PRODUCT_NAME = RedBoxCat;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EF324B9089A38C0EB0774D7A0CB0691B /* Debug */ = {
+		DAB4E24D8EAC5058F52AF6558E1C9912 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB175C240BAA5EE01B8542986572D4CD /* BlueBoxCat.xcconfig */;
 			buildSettings = {
@@ -1236,7 +1236,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1267,8 +1267,8 @@
 		3958E701D9573A8DBACD43283C09039D /* Build configuration list for PBXNativeTarget "RedBoxCat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8178AFC3FF304DBAFF53C5AEA9D25D22 /* Debug */,
-				B8EEF153499C4C51E05EE44D6F140576 /* Release */,
+				D444E53C735E5E111DCCCD882ED1AC2F /* Debug */,
+				D251D3DE6DCA5252E2E7823F4E4D44E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1294,8 +1294,8 @@
 		D028C98B24A9884F6B225A4F96BAC3A3 /* Build configuration list for PBXNativeTarget "BoxCat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB5CE67262901F268A2559411332B83F /* Debug */,
-				86E61EEAE3C8C55CA9E91BDE594E08A5 /* Release */,
+				7F43A1D8D2642A11868F74FC3AF6F05A /* Debug */,
+				379E0D27AE4CECC7C3FB422E7FB37F6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1303,8 +1303,8 @@
 		FE1064A2E10B394E3BEF76489D927A6E /* Build configuration list for PBXNativeTarget "BlueBoxCat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF324B9089A38C0EB0774D7A0CB0691B /* Debug */,
-				13DA657697C24AB7DF98978F0852837D /* Release */,
+				DAB4E24D8EAC5058F52AF6558E1C9912 /* Debug */,
+				35D9E163C1384ECE0DFD7CCC159D610F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
