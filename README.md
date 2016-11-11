@@ -1,6 +1,6 @@
 # BoxCat
 
-[![Language: Swift3](https://img.shields.io/badge/lang-Swift-yellow.svg?style=flat)](https://developer.apple.com/swift/)
+[![Language: Swift 3.0](https://img.shields.io/badge/lang-Swift_3.0-yellow.svg?style=flat)](https://developer.apple.com/swift/)
 [![Platform](https://img.shields.io/cocoapods/p/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![Version](https://img.shields.io/cocoapods/v/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
 [![License](https://img.shields.io/cocoapods/l/BoxCat.svg?style=flat)](http://cocoapods.org/pods/BoxCat)
