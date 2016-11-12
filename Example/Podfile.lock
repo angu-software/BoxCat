@@ -1,6 +1,6 @@
 PODS:
   - BlueBoxCat (0.1.0)
-  - BoxCat (0.1.0)
+  - BoxCat (1.0)
   - RedBoxCat (0.1.0)
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BlueBoxCat: 55c23c83873e35092667e72f4fe76a76c6cf10a8
-  BoxCat: e61fcf05ffa1dee8776659dea5a1fc3bc9691d7f
+  BoxCat: ce08e9f5df59d50927a08fb103440364adc00b21
   RedBoxCat: 9a9ac3f63130a2b207eba05089b9eb72c94525de
 
 PODFILE CHECKSUM: c8ac070a354a47432a36fb5a98f22c36882b40ed
