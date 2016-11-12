@@ -14,7 +14,7 @@ _BoxCat_ provides an easy interface for loading resources from no matter were th
 
 ### Loading resources from Pods and resource bundles
 
-Its main purpose is to load resources from resource bundles that may be contained in Pods. See [Cocoapods bundled resources](https://guides.cocoapods.org/syntax/podspec.html#resource_bundles) for more info. Thus for the unified interface it's also possible to exchange the iOS SDK solution for lading resources, especially if you plan to move some resources into pods in future. You won't even need to change code for loading the resources.
+Its main purpose is to load resources from resource bundles that may be contained in Pods. See [Cocoapods bundled resources](https://guides.cocoapods.org/syntax/podspec.html#resource_bundles) for more info. Thus for the unified interface it's also possible to exchange the iOS SDK solution for loading resources, especially if you plan to move some resources into pods in future. You won't even need to change code for loading the resources.
 
 ### Overriding resources
 
