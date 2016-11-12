@@ -17,16 +17,13 @@ podfile: Podfile
 osx_image: xcode8.1sneakpeak
 
 before_install:
-  - gem install fastlane
   - gem install cocoapods # Since Travis is not always on latest version
   - pod install --project-directory=Example
 before_script:
   - pod lib lint --quick
-  - fastlane --version
   - xcodebuild -version
 after_success:
   - bash <(curl -s https://codecov.io/bash) -J '^BoxCat$' -cF ios  
 script:
-  - xcodebuild -workspace $WORKSPACE -scheme $SCHEME -sdk "$SDK" -destination "$DESTINATION" ONLY_ACTIVE_ARCH=YES test | xcpretty
-  - xcodebuild -workspace $WORKSPACE -scheme $SCHEME -sdk "$SDK" -destination "$DESTINATION" ONLY_ACTIVE_ARCH=YES -enableCodeCoverage $COVERAGE test
+  - xcodebuild -workspace $WORKSPACE -scheme $SCHEME -sdk "$SDK" -destination "$DESTINATION" ONLY_ACTIVE_ARCH=YES -enableCodeCoverage $COVERAGE test | xcpretty
 
