@@ -22,7 +22,7 @@ Using _BoxCat_ for loading resources will also enable the possibility to overrid
 
 ## How to use
 
-You using Box cat similar to the build in resource loading of the iOS SDK. But instead of using the resource classes initialiser to load the resource you use the interface _BoxCat_ provides.
+You using _BoxCat_ similar to the build in resource loading of the iOS SDK. But instead of using the resource classes initialiser to load the resource you use the interface _BoxCat_ provides.
 
 To load an image resource you simply type.
 
@@ -30,11 +30,11 @@ To load an image resource you simply type.
 let boxCatImage = UIImage.named("my_image")
 ```
 
-This will search the whole main app bundle for the resource. So if its located in the main app bundle it will just load it from there. If it is contained in a bundle located inside of the main app bundle it will also find it and load it.
+This will search the whole main app bundle for the resource. So if it's located in the main app bundle it will just load it from there. If it is contained in a bundle located inside of the main app bundle it will also find it and load it.
 
-_BoxCat_ also provides `LookupFilter` to increase performance in searching for loading resources deeply contained in the main bundle hierarchy. Providing a concrete `Bundle` to the interfaces of _BoxCat_ is also a option to increase the performance loading resources.
+_BoxCat_ also provides `LookupFilter` to increase performance in searching for resources deeply contained in the main bundle hierarchy. Providing a concrete `Bundle` to the interfaces of _BoxCat_ is also an option to increase the performance to load resources.
 
-You can specify those `LookupFilter` globally or locally only affecting a single resource loading call.
+You can specify a `LookupFilter` globally or locally only affecting a single resource loading call.
 
 ```swift
 // Set lookup filter globally
@@ -63,7 +63,7 @@ _BoxCat_ is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BoxCat", :git => 'https://github.com/dreyhomedev/BoxCat.git'
+pod "BoxCat"
 ```
 
 ## Example
