@@ -11,13 +11,13 @@ import Foundation
 /// A filter to specify the destinations _BoxCat_ should look for resources.
 /// It will also take into account the order of the defined destinations.
 public struct LookupFilter {
-    
+
     // The bundles to lookup for resources
     public let bundles: [String]?
-    
+
     // The frameworks to lookup for resources
     public let frameworks: [String]?
-    
+
     /// Creates a new `LookupFilter`
     ///
     /// - note: _BoxCat_ will return the first occurrence of a resource in the bundle hierarchy,
@@ -41,14 +41,14 @@ public struct LookupFilter {
 }
 
 public struct BoxCat {
-    
+
     /// Global lookup filter. Defaults to an empty filter.
     /// If set to `nil` resource lookup in contained bundles and framewoks will be skipped.
     public static var lookupFilter: LookupFilter? = LookupFilter()
 }
 
 public extension UIImage {
-    
+
     /// Searches for an image resource with a given name in the bundle structure and it's contained frameworks and bundles.
     ///
     /// - parameter name:         Name of the image resource.
@@ -63,7 +63,7 @@ public extension UIImage {
 }
 
 public extension UINib {
-    
+
     /// Searches for a nib resource with a given name in the bundle structure and it's contained frameworks and bundles.
     ///
     /// - parameter name:         Name of the nib resource.

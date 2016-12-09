@@ -18,7 +18,7 @@ class ImageTableViewCell: UITableViewCell {
             bundleImageView.image = newImage
         }
     }
-    
+
     var bundleImageName: String? {
         get {
             return bundleImageNameLabel.text
@@ -27,7 +27,7 @@ class ImageTableViewCell: UITableViewCell {
             bundleImageNameLabel.text = newBundleImageName
         }
     }
-    
+
     var bundleName: String? {
         get {
             return bundleNameLabel.text
@@ -36,7 +36,7 @@ class ImageTableViewCell: UITableViewCell {
             bundleNameLabel.text = newBundleName
         }
     }
-    
+
     @IBOutlet fileprivate weak var bundleImageView: UIImageView!
     @IBOutlet fileprivate weak var bundleImageNameLabel: UILabel!
     @IBOutlet fileprivate weak var bundleNameLabel: UILabel!
