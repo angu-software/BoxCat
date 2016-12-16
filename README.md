@@ -8,9 +8,9 @@
 [![codecov](https://codecov.io/gh/devdrey/BoxCat/branch/develop/graph/badge.svg)](https://codecov.io/gh/devdrey/BoxCat)
 [![DocCov](https://img.shields.io/cocoapods/metrics/doc-percent/BoxCat.svg)](http://cocoadocs.org/docsets/BoxCat)
 
-*Bundled resource loading made easy*
+>_BoxCat_ provides an easy interface for loading resources from no matter were they are located in the application bundle. 
 
-_BoxCat_ provides an easy interface for loading resources from no matter were they are located in the application bundle. It's able to load resources from main app bundle as well from nested resource bundles and contained frameworks, e.g. Pods that containing images, xib-files and any other types of resources.
+It's able to load resources from main app bundle as well from nested resource bundles and contained frameworks, e.g. Pods that containing images, xib-files and any other types of resources.
 
 ### Loading resources from Pods and resource bundles
 
